@@ -1,9 +1,4 @@
 import { clsx } from 'clsx'
-import { AreaChart, Rss } from 'lucide-react'
-import { Link } from '~/components/ui/link'
-import { SpotifyNowPlaying } from '~/components/ui/now-playing'
-import { SITE_METADATA } from '~/data/site-metadata'
-import MadeInVietNam from '~/icons/miv.svg'
 
 export function FooterBottom() {
   return (
@@ -14,17 +9,8 @@ export function FooterBottom() {
         'border-t border-gray-200 dark:border-gray-700',
       ])}
     >
-      <SpotifyNowPlaying
-        className="w-full justify-center truncate [--artist-color:theme(colors.gray.500)] md:max-w-[50%] md:justify-start"
-        songEffect="underline"
-        showCover
-      />
-      <div className="flex items-center">
-        <Link href={SITE_METADATA.siteRepo}>
-          <span data-umami-event="made-in-vietnam">
-            <MadeInVietNam />
-          </span>
-        </Link>
+      <div className="text-center w-full">
+        <span>© 2025 CloneM. This is an unofficial fan site. Not affiliated with Realms of Pixel developers.</span>
       </div>
     </div>
   )

@@ -1,0 +1,108 @@
+import type { Artifact } from '~/types/data'
+
+export const ARTIFACTS: Artifact[] = [
+  {
+    id: '1',
+    type: 'Orange',
+    name: 'Water Shackles',
+    description: [
+      {
+        hab: 'lv.1',
+        name: 'Gains +15% Control RESance for 2 turns before the turn starts. This effect cannot be removed and it activates up to 1 time per battle',
+      },
+    ],
+    imgSrc: '/static/images/artifacts/water-shackles.png',
+    imgSrc_hab: '/static/images/artifacts/water-shackles-hab.png',
+  },
+  {
+    id: '2',
+    type: 'Orange',
+    name: 'Crimson Eyes',
+    imgSrc: '/static/images/artifacts/crimson-eyes.png',
+    imgSrc_hab: '/static/images/artifacts/crimson-eyes-hab.png',
+  },
+  {
+    id: '3',
+    type: 'Orange',
+    name: 'Glory`s Edict',
+    imgSrc: '/static/images/artifacts/glory-edict.png',
+    imgSrc_hab: '/static/images/artifacts/glory-edict-hab.png',
+  },
+  {
+    id: '4',
+    type: 'Orange',
+    name: 'Illusion Fruit',
+    imgSrc: '/static/images/artifacts/illusion-fruit.png',
+    imgSrc_hab: '/static/images/artifacts/illusion-fruit-hab.png',
+  },
+  {
+    id: '5',
+    type: 'Orange',
+    name: 'Steeled Wings',
+    imgSrc: '/static/images/artifacts/steeled-wings.png',
+    imgSrc_hab: '/static/images/artifacts/steeled-wings-hab.png',
+  },
+  {
+    id: '6',
+    type: 'Orange',
+    name: 'Twisted Truth',
+    imgSrc: '/static/images/artifacts/twisted-truth.png',
+    imgSrc_hab: '/static/images/artifacts/twisted-truth-hab.png',
+  },
+  {
+    id: '7',
+    type: 'Red',
+    name: 'Gilded Life',
+    imgSrc: '/static/images/artifacts/gilded-life.png',
+    imgSrc_hab: '/static/images/artifacts/gilded-life-hab.png',
+  },
+  {
+    id: '8',
+    type: 'Red',
+    name: 'Serpent Constellation',
+    imgSrc: '/static/images/artifacts/serpent-constellation.png',
+    imgSrc_hab: '/static/images/artifacts/serpent-constellation-hab.png',
+  },
+  {
+    id: '9',
+    type: 'Red',
+    name: 'Evernight Candle',
+    imgSrc: '/static/images/artifacts/evernight-candle.png',
+    imgSrc_hab: '/static/images/artifacts/evernight-candle-hab.png',
+  },
+  {
+    id: '10',
+    type: 'Red',
+    name: 'Spirit Light Mask',
+    imgSrc: '/static/images/artifacts/spirit-light-mask.png',
+    imgSrc_hab: '/static/images/artifacts/spirit-light-mask-hab.png',
+  },
+  {
+    id: '11',
+    type: 'Red',
+    name: 'Sanctified Water',
+    imgSrc: '/static/images/artifacts/sanctified-water.png',
+    imgSrc_hab: '/static/images/artifacts/sanctified-water-hab.png',
+  },
+  {
+    id: '12',
+    type: 'Red',
+    name: 'Underworld Emissary',
+    imgSrc: '/static/images/artifacts/underworld-emissary.png',
+    imgSrc_hab: '/static/images/artifacts/underworld-emissary-hab.png',
+  },
+  {
+    id: '13',
+    type: 'Red',
+    name: 'Fog-Dispel Lantern',
+    imgSrc: '/static/images/artifacts/fog-dispel-lantern.png',
+    imgSrc_hab: '/static/images/artifacts/fog-dispel-lantern-hab.png',
+  },
+  {
+    id: '14',
+    type: 'Red',
+    name: 'Shadow Lantern',
+    imgSrc: '/static/images/artifacts/shadow-lantern.png',
+    imgSrc_hab: '/static/images/artifacts/shadow-lantern-hab.png',
+  },
+]

@@ -5,13 +5,13 @@ export const SITE_METADATA = {
   author: 'Pquar',
   headerTitle: `Pquar's dev blog`,
   description:
-    'Aqui você encontra guias para Realms of Pixel! Descubra as builds mais eficientes, saiba como investir seus recursos da melhor forma, sobre os recursos e os desafios do jogo com estratégias detalhadas.',
-  language: 'pt-BR',
+    '"Welcome! Share top-tier builds, resource strategies, and conquer challenges together. Found an issue or have suggestions? Ping me on Discord: @pquar feedback keeps this site growing!"',
+  language: 'en',
   headerLink: 'https://www.clonm.com/',
   theme: 'system', // system, dark or light
   siteUrl: 'https://www.clonm.com',
   siteRepo: 'https://github.com/pquar/',
-  siteTitle: 'Reals of Pixel Guide',
+  siteTitle: 'Reals of Guide',
   CharBanner: {
     faction: 'adventure',
     name: 'Tomoe',
@@ -22,7 +22,7 @@ export const SITE_METADATA = {
     char_image: "/static/images/catalog/tomoe-850x750.png",
     imageAlt: 'Tomoe',
   },
-  siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.jpg`,
+  siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
   socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.jpeg`,
   email: 'pquar@hotmail.com',
   github: 'https://github.com/pquar',

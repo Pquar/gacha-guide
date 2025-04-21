@@ -12,8 +12,6 @@ export default function AboutPage() {
 
   return (
     <AuthorLayout content={mainContent}>
-      {/* TODO: MDX seems to be broken on this page, so I'm back to JSX for now */}
-      {/* <MDXLayoutRenderer code={author.body.code} /> */}
     </AuthorLayout>
   )
 }

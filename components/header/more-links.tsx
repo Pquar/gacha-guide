@@ -37,7 +37,6 @@ export function MoreLinks() {
                       className="flex w-full items-center gap-2 rounded-md px-2 py-1.5 hover:bg-gray-200 dark:hover:bg-gray-800"
                       onClick={close}
                     >
-                      <Twemoji emoji={emoji} />
                       <span data-umami-event={`nav-${href.replace('/', '')}`}>{title}</span>
                     </Link>
                   )}

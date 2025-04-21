@@ -16,8 +16,8 @@ export function Logo({ className }: { className?: string }) {
       ])}
     >
       <Image
-        src="/static/images/logo.jpg"
-        alt={SITE_METADATA.headerTitle}
+        src={SITE_METADATA.siteLogo}
+        alt={SITE_METADATA.siteLogo}
         width={100}
         height={100}
         className="h-10 w-10 rounded-xl"

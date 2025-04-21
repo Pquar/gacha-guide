@@ -9,64 +9,86 @@ export type SpotifyNowPlayingData = {
   albumImageUrl?: string
 }
 
-export type Project = {
-  type: 'work' | 'self'
-  title: string
-  description?: string
+export type Artifact = {
+  id: string
+  type: 'Orange' | 'Red'
+  name: string
+  description?: { hab: string; name: string }[]
   imgSrc: string
-  url?: string
-  repo?: string
-  builtWith: string[]
-  links?: { title: string; url: string }[]
+  imgSrc_hab: string
+  links?: { title: string; url: string }
 }
 
 export type Heroes = {
+  id: string
   title: string
   name: string
   link: string
   launch_date: string
   faction: string
   ability: string
-  ab_0_path: string
-  ab_0_name: string
-  ab_0_lv1: string
-  ab_0_lv2: string
-  ab_0_lv3: string
-  ab_0_aw: string
-  ab_1_path: string
-  ab_1_name: string
-  ab_1_lv1: string
-  ab_1_lv2: string
-  ab_1_lv3: string
-  ab_1_aw: string
-  ab_2_path: string
-  ab_2_name: string
-  ab_2_lv1: string
-  ab_2_lv2: string
-  ab_2_lv3: string
-  ab_2_aw: string
-  ab_3_path: string
-  ab_3_name: string
-  ab_3_lv1: string
-  ab_3_lv2: string
-  ab_3_lv3: string
-  ab_3_aw: string
-  hab_description: {
-    name: string
-    description: string
-  }[]
   hero_image_url: string
   hero_small_image_url: string
   hero_medium_image_url: string
   hero_large_image_url: string
   hero_description: string
-  
-  rating: string
-  date_att: string
+  rerun: string
+  rating: number
+  tier: TierType
+  hero_id: string
   review: string
   hero_published: string
   contentSnippet: string
+  abilities: {
+    name: string
+    type: string
+    icon: string
+    description: string
+    image: string
+    levels: {
+      name: string
+      description: string
+    }[]
+  }[]
+  equip: {
+    name: string
+    description: string
+    recommended: {
+      name: string
+      image: string
+      type: TypeBuild
+    }[]
+  }
+  startmark: {
+    name: string
+    description: string
+    recommended: {
+      name: string
+      image: string
+      type: TypeBuild
+    }[]
+  }
+  badge: {
+    name: string
+    description: string
+    recommended: {
+      name: string
+      image: string
+      type: TypeBuild
+    }[]
+  }
+  artefact: {
+    name: string
+    description: string
+    recommended: {
+      name: string
+      image: string
+      type: TypeBuild
+    }[]
+  }
 }
+export type TypeBuild = 'Must Have' | 'Recommend' | 'Opc.' | null
+export type TierType = 'all' | 'SSS' | 'SS' | 'S' | 'A' | 'B' | 'C'
 
 export type ImdbMovie = {
   const: string

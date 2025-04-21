@@ -2,7 +2,7 @@ import { ExternalLink } from 'lucide-react'
 import { Fragment } from 'react'
 import { GrowingUnderline } from '~/components/ui/growing-underline'
 import { Link } from '~/components/ui/link'
-import { FOOTER_NAV_LINKS, FOOTER_PERSONAL_STUFF } from '~/data/navigation'
+import { FOOTER_NAV_LINKS, FOOTER_MORE_LINKS } from '~/data/navigation'
 
 export function FooterNav() {
   return (
@@ -26,10 +26,10 @@ export function FooterNav() {
       </div>
       <div className="space-y-1 md:space-y-4">
         <div className="flex h-11 items-center font-semibold">
-          <span>Personal stuff</span>
+          <span>More Links</span>
         </div>
         <ul className="flex flex-wrap gap-4 md:flex-col md:gap-3">
-          {FOOTER_PERSONAL_STUFF.map((link, idx) => (
+          {FOOTER_MORE_LINKS.map((link, idx) => (
             <Fragment key={link.title}>
               <li>
                 <FooterLink link={link} />
