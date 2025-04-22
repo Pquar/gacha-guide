@@ -5,7 +5,7 @@ import { Banner } from '~/components/blog/banner'
 import { BlogMeta } from '~/components/blog/blog-meta'
 import { Comments } from '~/components/blog/comments'
 import { DiscussOnX } from '~/components/blog/discuss-on-x'
-import { EditOnGithub } from '~/components/blog/edit-on-github'
+//import { EditOnGithub } from '~/components/blog/edit-on-github'
 import { PostTitle } from '~/components/blog/post-title'
 import { ScrollButtons } from '~/components/blog/scroll-buttons'
 import { SocialShare } from '~/components/blog/social-share'
@@ -58,7 +58,7 @@ export function PostBanner({ content, children }: LayoutProps) {
             <div className="flex items-center gap-2">
               <DiscussOnX postUrl={postUrl} />
               <span className="text-gray-500">/</span>
-              <EditOnGithub filePath={filePath} />
+             {/* <EditOnGithub filePath={filePath} /> */}
             </div>
             {/* <SocialShare postUrl={postUrl} title={title} /> */}
           </div>

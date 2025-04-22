@@ -3,7 +3,7 @@ import { Description } from '@headlessui/react'
 export const SITE_METADATA = {
   title: `Contendo sobre Gachas`,
   author: 'Pquar',
-  headerTitle: `Pquar's dev blog`,
+  headerTitle: `Gacha blog`,
   description:
     '"Welcome! Share top-tier builds, resource strategies, and conquer challenges together. Found an issue or have suggestions? Ping me on Discord: @pquar feedback keeps this site growing!"',
   language: 'en',

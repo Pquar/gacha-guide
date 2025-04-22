@@ -1,5 +1,5 @@
 import type { Blog, Snippet } from '~/.contentlayer/generated'
-import { ProfileCard } from '~/components/cards/profile'
+//import { ProfileCard } from '~/components/cards/profile'
 import { Container } from '~/components/ui/container'
 import { Twemoji } from '~/components/ui/twemoji'
 import type { CoreContent } from '~/types/data'
@@ -22,21 +22,18 @@ export function Home({
           <div className="text-base leading-7 text-gray-600 dark:text-gray-400 md:text-lg md:leading-8">
             <div className="mb-6 mt-4 md:mb-8">
               <p>
-                Aqui você encontra guias para Realms of Pixel! Descubra as builds mais
-                eficientes, saiba como investir seus recursos da melhor forma, sobre os recursos
-                e os desafios do jogo com estratégias detalhadas.
+                Here you’ll find guides to discover the most efficient builds, learn how to invest
+                your resources wisely, and explore the game's features and challenges with detailed
+                strategies
               </p>
             </div>
             <BlogLinks />
-            <p className="my-6 flex md:my-8">
-              <span className="mr-2">Happy reading</span>
-              <Twemoji emoji="clinking-beer-mugs" />
-            </p>
+
           </div>
         </div>
-        <div className="hidden pl-4 pt-8 xl:block">
+        {/*  <div className="hidden pl-4 pt-8 xl:block">
           <ProfileCard />
-        </div>
+        </div> */}
       </div>
       <LatestPosts posts={posts} snippets={snippets} />
       {/* {SITE_METADATA.newsletter?.provider && (

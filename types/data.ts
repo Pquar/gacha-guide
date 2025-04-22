@@ -26,7 +26,7 @@ export type Heroes = {
   link: string
   launch_date: string
   faction: string
-  ability: string
+  role: string
   hero_image_url: string
   hero_small_image_url: string
   hero_medium_image_url: string

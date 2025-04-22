@@ -94,7 +94,7 @@ function HeroSummary({ hero }: { hero: Heroes }) {
         </div>
         <div>
           <h4 className="font-semibold">Role</h4>
-          <p>{hero.ability}</p>
+          <p>{hero.role}</p>
         </div>
         <div>
           <h4 className="font-semibold">Tier</h4>
@@ -110,7 +110,7 @@ function HeroSummary({ hero }: { hero: Heroes }) {
 }
 function HeroRecommended({ hero }: { hero: Heroes }) {
   return (
-    <div className="grid grid-cols-2 gap-1">
+    <div className="grid grid-cols-1 gap-1">
       {/* Equipment Sections */}
       {[hero.equip, hero.startmark, hero.badge, hero.artefact].map(
         (item, index) =>
@@ -126,7 +126,7 @@ function HeroRecommended({ hero }: { hero: Heroes }) {
                   <div key={recIndex} className="group relative flex flex-col items-center">
                     <div className="relative h-16 w-16 overflow-hidden rounded-md border-2 border-gray-200 transition-all group-hover:border-blue-500 dark:border-gray-600">
                       <Image
-                        src={rec.image}
+                        src={'/static/images/equip/'+rec.image}
                         alt={rec.name}
                         fill
                         className="object-cover"

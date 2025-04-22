@@ -83,7 +83,6 @@ module.exports = {
         goodreads: '#372213',
         facebook: '#1877f2',
         twitter: '#0f1419',
-        linkedin: '#0077B5',
         'solarized-light': '#fdfaf6',
         'github-dark-dimmed': '#22272e',
         'code-block': '#36313d',

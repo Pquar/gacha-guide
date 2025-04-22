@@ -6,7 +6,7 @@ import { BlogMeta } from '~/components/blog/blog-meta'
 import { Comments } from '~/components/blog/comments'
 import { PostNav } from '~/components/blog/post-nav'
 import { PostTitle } from '~/components/blog/post-title'
-import { Reactions } from '~/components/blog/reactions'
+//import { Reactions } from '~/components/blog/reactions'
 import { ScrollButtons } from '~/components/blog/scroll-buttons'
 import { SocialShare } from '~/components/blog/social-share'
 import { TagsList } from '~/components/blog/tags'
@@ -56,42 +56,15 @@ export function PostLayout({ content, next, prev, children }: LayoutProps) {
           </div>
         </div>
         <GradientDivider className="mb-2 mt-1" />
-        <div className="grid grid-cols-1 gap-12 pb-10 pt-8 lg:grid-cols-12 lg:pt-10">
+        
           <div className="divide-y divide-gray-200 dark:divide-gray-700 lg:col-span-8 xl:col-span-9">
             <div className="prose max-w-none dark:prose-invert lg:prose-lg lg:pb-8">{children}</div>
           </div>
-          <div className="hidden lg:col-span-4 lg:block xl:col-span-3">
-            <div className="space-y-4 divide-y divide-gray-200 dark:divide-gray-700 lg:sticky lg:top-24">
-              {/* <BackToPosts label="Back to posts" /> */}
-              <TableOfContents toc={toc} />
-              <Reactions className="pt-6" type={type.toLowerCase() as StatsType} slug={slug} />
-              <div className="hidden">
-                {/* <script src="//servedby.eleavers.com/ads/ads.php?t=MzA5NzQ7MjEwNjA7c3F1YXJlLnNxdWFyZV9ib3g=&index=1"></script> */}
-                {/* <script
-                  type="text/javascript"
-                  dangerouslySetInnerHTML={{
-                    __html: `
-                        atOptions = {
-                          'key' : '1a0dbe126a158e715cd3377a597850d8',
-                          'format' : 'iframe',
-                          'height' : 300,
-                          'width' : 160,
-                          'params' : {}
-                        };`,
-                  }}
-                />
-                <script
-                  type="text/javascript"
-                  src="//www.topcpmcreativeformat.com/1a0dbe126a158e715cd3377a597850d8/invoke.js"
-                /> */}
-              </div>
-            </div>
-          </div>
-        </div>
+
         <GradientDivider />
         <div className="space-y-4">
           <PostNav next={next} nextLabel="Next post" prev={prev} prevLabel="Previous post" />
-          <Comments configs={{ reactions: '0' }} />
+         {/*  <Comments configs={{ reactions: '0' }} /> */}
         </div>
       </article>
     </Container>
