@@ -37,6 +37,7 @@ export type Heroes = {
   tier: TierType
   hero_id: string
   review: string
+  content: string
   hero_published: string
   contentSnippet: string
   abilities: {
@@ -56,7 +57,7 @@ export type Heroes = {
     recommended: {
       name: string
       image: string
-      type: TypeBuild
+      type?: TypeBuild
     }[]
   }
   startmark: {
@@ -65,16 +66,7 @@ export type Heroes = {
     recommended: {
       name: string
       image: string
-      type: TypeBuild
-    }[]
-  }
-  badge: {
-    name: string
-    description: string
-    recommended: {
-      name: string
-      image: string
-      type: TypeBuild
+      type?: TypeBuild
     }[]
   }
   artefact: {
@@ -83,7 +75,7 @@ export type Heroes = {
     recommended: {
       name: string
       image: string
-      type: TypeBuild
+      type?: TypeBuild
     }[]
   }
 }

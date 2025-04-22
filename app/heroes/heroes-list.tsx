@@ -45,7 +45,7 @@ export function HeroesList({ heroes }: HeroListProps) {
       {displayHeroes.length > 0 ? (
         <div className="space-y-10">
           {displayHeroes.map((hero) => (
-            <HeroesCard key={hero.hero_id} hero={hero} />
+            <HeroesCard key={hero.id} hero={hero} />
           ))}
         </div>
       ) : (

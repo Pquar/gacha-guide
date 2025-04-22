@@ -8,6 +8,7 @@ export const SITE_METADATA = {
     '"Welcome! Share top-tier builds, resource strategies, and conquer challenges together. Found an issue or have suggestions? Ping me on Discord: @pquar feedback keeps this site growing!"',
   language: 'en',
   headerLink: 'https://www.clonm.com/',
+  heroesFeedUrl: 'https://www.clonm.com/',
   theme: 'system', // system, dark or light
   siteUrl: 'https://www.clonm.com',
   siteRepo: 'https://github.com/pquar/',

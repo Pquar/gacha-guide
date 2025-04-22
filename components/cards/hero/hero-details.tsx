@@ -112,7 +112,7 @@ function HeroRecommended({ hero }: { hero: Heroes }) {
   return (
     <div className="grid grid-cols-1 gap-1">
       {/* Equipment Sections */}
-      {[hero.equip, hero.startmark, hero.badge, hero.artefact].map(
+      {[hero.equip, hero.startmark, hero.artefact].map(
         (item, index) =>
           item && (
             <div key={index} className="space-y-3">
