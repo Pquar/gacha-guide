@@ -14,7 +14,7 @@
     "hero_large_image_url": "/static/images/heroes/tomoe/full.png",
     "hero_description": "Top-tier hero viable from 5★, scaling steadily. \n\n Peaks: Support (8★), DPS (11★). No awakening dependency.",
     "rerun": "0",
-    "rating": 100,
+    "rating": 98,
     "tier": "SSS",
     "hero_id": "Mon, 16 Dec 2024 08:02:43 -0800",
     "review": "",
@@ -74,7 +74,7 @@
       },
       {
         "name": "Mirage Mist",
-        "type": "Self / Buff",
+        "type": "Self | Buff",
         "icon": "swords",
         "description": "Normal attacks prioritize highest ATK",
         "image": "/static/images/heroes/tomoe/hab-2.png",
@@ -228,7 +228,7 @@
     "rating": 100,
     "tier": "SSS",
     "hero_id": "Mon, 16 Dec 2024 08:02:43 -0800",
-    "review": "",
+    "review": "Burn",
     "hero_published": "2025",
     "content": "",
     "contentSnippet": "",
@@ -309,7 +309,7 @@
       },
       {
         "name": "The stars shine",
-        "type": "Self / Buff",
+        "type": "Self | Buff",
         "icon": "swords",
         "description": "Normal attacks prioritize highest ATK",
         "image": "/static/images/heroes/zenith/hab-2.jpg",
@@ -378,7 +378,7 @@
         "levels": [
           {
             "name": "Level 1",
-            "description": "Initial Rage +20."
+            "description": "Gains +20 Initial Rage."
           },
           {
             "name": "Level 5",
@@ -390,7 +390,7 @@
           },
           {
             "name": "Level 15",
-            "description": "Initial Rage +30"
+            "description": "Gains +30 Initial Rage."
           },
           {
             "name": "Level 20",
@@ -583,7 +583,7 @@
       },
       {
         "name": "Sharp Eyes",
-        "type": "Self / Buff",
+        "type": "Self | Buff",
         "icon": "swords",
         "description": "Normal attacks prioritize highest ATK",
         "image": "/static/images/heroes/masha/hab-2.png",
@@ -656,7 +656,7 @@
         "levels": [
           {
             "name": "Level 1",
-            "description": "Initial Rage +20."
+            "description": "Gains +20 Initial Rage."
           },
           {
             "name": "Level 5",
@@ -668,7 +668,7 @@
           },
           {
             "name": "Level 15",
-            "description": "Initial Rage +30"
+            "description": "Gains +30 Initial Rage."
           },
           {
             "name": "Level 20",
@@ -903,7 +903,7 @@
         "levels": [
           {
             "name": "Level 1",
-            "description": "Initial Rage +20."
+            "description": "Gains +20 Initial Rage."
           },
           {
             "name": "Level 5",
@@ -915,7 +915,7 @@
           },
           {
             "name": "Level 15",
-            "description": "Initial Rage +30"
+            "description": "Gains +30 Initial Rage."
           },
           {
             "name": "Level 20",
@@ -1019,10 +1019,10 @@
     "title": "Phantom Flame",
     "name": "Sakuya",
     "link": "/heroes?heroNumber=5",
-    "role": "DPS | Debuff | Burst",
+    "role": "Buffer",
     "launch_date": "--",
     "faction": "Ascension",
-    "type": "Magic / Debuff / Burst",
+    "type": "Mana | Burs | Control",
     "hero_image_url": "/static/images/heroes/sakuya/full.png",
     "hero_small_image_url": "/static/images/heroes/sakuya/full.png",
     "hero_medium_image_url": "/static/images/heroes/sakuya/full.png",
@@ -1146,7 +1146,7 @@
         "levels": [
           {
             "name": "Level 1",
-            "description": "Initial Rage +20."
+            "description": "Gains +20 Initial Rage."
           },
           {
             "name": "Level 5",
@@ -1158,7 +1158,7 @@
           },
           {
             "name": "Level 15",
-            "description": "Initial Rage +30"
+            "description": "Gains +30 Initial Rage."
           },
           {
             "name": "Level 20",
@@ -1210,6 +1210,1005 @@
         {
           "name": "Magic",
           "image": "magic.png",
+          "type": "Recommend"
+        },
+        {
+          "name": "Devour",
+          "image": "devour.png"
+        },
+        {
+          "name": "dodge",
+          "image": "dodge.png"
+        },
+        {
+          "name": "Pierce",
+          "image": "pierce.png"
+        },
+        {
+          "name": "Awaken",
+          "image": "awaken.png"
+        }
+      ]
+    },
+    "artefact": {
+      "name": "Sacred Artifact",
+      "description": "",
+      "recommended": [
+        {
+          "name": "Serpent Constellation",
+          "image": "serpent-constellation.png"
+        },
+        {
+          "name": "Spirit Light Mask",
+          "image": "spirit-light-mask.png"
+        },
+        {
+          "name": "Crimson eyes",
+          "image": "crimson-eyes.png"
+        },
+        {
+          "name": "Illusion Fruit",
+          "image": "illusion-fruit.png"
+        },
+        {
+          "name": "Twisted Truth",
+          "image": "twisted-truth.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "6",
+    "title": "Alloy Vanguard",
+    "name": "Beta",
+    "link": "/heroes?heroNumber=6",
+    "role": "Guard | CounterAtk",
+    "launch_date": "--",
+    "faction": "Ascension",
+    "type": "Guard",
+    "hero_image_url": "/static/images/heroes/beta/full.png",
+    "hero_small_image_url": "/static/images/heroes/beta/full.png",
+    "hero_medium_image_url": "/static/images/heroes/beta/full.png",
+    "hero_large_image_url": "/static/images/heroes/beta/full.png",
+    "hero_description": "Top-tier hero",
+    "rerun": "0",
+    "rating": 100,
+    "tier": "S",
+    "hero_id": "Mon, 16 Dec 2024 08:02:43 -0800",
+    "review": "",
+    "hero_published": "2025",
+    "content": "",
+    "contentSnippet": "",
+    "abilities": [
+      {
+        "name": "Counter burst",
+        "type": "AoE | Debuff",
+        "icon": "swords",
+        "description": "",
+        "image": "/static/images/heroes/beta/hab-0.png",
+        "levels": [
+          {
+            "name": "Level 1",
+            "description": "Attacks enemies in the middle row, dealing 164% of attack power as physical damage, with a 30% chance to inflict [Counter]. During its duration, whenever the unit takes action, they will suffer true damage equal to 3% of their max HP."
+          },
+          {
+            "name": "Level 2",
+            "description": "Ultimate skill damage increases to 196%, and the chance to inflict [Counter] increases to 45%"
+          },
+          {
+            "name": "Level 3",
+            "description": "Ultimate skill damage increases to 229%, and [Counter] true damage increases to 5%."
+          },
+          {
+            "name": "[Counter]",
+            "description": "Units affected by this status will receive true damage equal to 3% of the caster’s max HP each time they take action."
+          }
+        ]
+      },
+      {
+        "name": "Precise Prediction",
+        "type": "Group | Buff",
+        "icon": "swords",
+        "description": "",
+        "image": "/static/images/heroes/beta/hab-1.png",
+        "levels": [
+          {
+            "name": "Level 1",
+            "description": "When taking direct damage, there is a 25% chance to grant all allies 1 stack of [Prediction]. [Prediction] increases ATK by 2%, and [Counterattack] damage increases randomly by 5~10%. Can stack up to 10 times and cannot be dispelled."
+          },
+          {
+            "name": "Level 2",
+            "description": "[Prediction] trigger chance increases to 40%."
+          },
+          {
+            "name": "Level 3",
+            "description": "[Prediction] trigger chance increases to 55%. Prediction effect increased to +2% ATK, and [Counterattack] damage increases randomly by 10~15%. Can stack up to 10 times, cannot be dispelled."
+          },
+          {
+            "name": "[Prediction]",
+            "description": "Increases ATK by 2%, and increases [Counterattack] damage randomly by 5–10%. Can stack up to 10 times, cannot be dispelled."
+          }
+        ]
+      },
+      {
+        "name": "Aggressive Positioning",
+        "type": "Self | Buff",
+        "icon": "swords",
+        "description": "Normal attacks prioritize highest ATK",
+        "image": "/static/images/heroes/beta/hab-2.png",
+        "levels": [
+          {
+            "name": "Level 1",
+            "description": "Increases ATK by 15%, HP limit by 20%, and damage bonus by 10%. In battle, every time the caster is attacked, damage eduction increases by 4%, up to a maximum of 40%. Effect lasts until the end of the current round."
+          },
+          {
+            "name": "Level 2",
+            "description": "Increases ATK by 20%, HP limit by 35%, and damage bonus by 15%. Damage reduction increases by 6% per hit taken, up to 60%."
+          },
+          {
+            "name": "Level 3",
+            "description": "Increases ATK by 25%, HP limit by 45%, and damage bonus by 20%. Damage reduction increases by 10% per hit taken, up to a maximum of 80%.."
+          }
+        ]
+      },
+      {
+        "name": "SparkFlash",
+        "type": "CounterAtk | Control",
+        "icon": "swords",
+        "description": "",
+        "image": "/static/images/heroes/beta/hab-3.png",
+        "levels": [
+          {
+            "name": "Level 1",
+            "description": "Each time an allied unit is attacked by an enemy, Beta gains 1 stack of [Spark]. When [Spark] reaches 12 stacks, all stacks are consumed to trigger [Volley], dealing 100% ATK as physical damage to all enemies, with a 15% chance to inflict [Taunt]. After activation, gains [SparkFlash Counter] (can only trigger once per turn)."
+          },
+          {
+            "name": "Level 2",
+            "description": "[Volley] damage increases to 120%, and the trigger condition changes to 10 stacks."
+          },
+          {
+            "name": "Level 3",
+            "description": "[Volley] damage increases to 140%, and [Taunt] chance increases to 30%."
+          },
+          {
+            "name": "[Spark]",
+            "description": "When reaching 12 stacks, consumes all stacks to trigger [Volley], dealing 100% damage to all enemies and having a 15% hance to inflict [Taunt]. Also grants self [SparkFlash Counter]."
+          },
+          {
+            "name": "[Taunt]",
+            "description": "Forces normal attacks to target the taunt caster for 1 turn"
+          },
+          {
+            "name": "[SparkFlash Counter]",
+            "description": "Units with this status will counterattack when hit, for 1 turn"
+          }
+        ]
+      },
+      {
+        "name": "Awakened",
+        "type": "1-30",
+        "icon": "swords",
+        "description": "awk",
+        "image": "/static/images/heroes/beta/preview.png",
+        "levels": [
+          {
+            "name": "Level 1",
+            "description": "Gains +20 Initial Rage."
+          },
+          {
+            "name": "Level 5",
+            "description": "[Counter burst] Ultimate skill damage increases to 245%. Chance to inflict [Counter] increases to 75%. Allies' attacks against [Counter] targets deal an additional 30% physical damage."
+          },
+          {
+            "name": "Level 10",
+            "description": "10% DEF"
+          },
+          {
+            "name": "Level 15",
+            "description": "Gains +30 Initial Rage."
+          },
+          {
+            "name": "Level 20",
+            "description": "[Precise Prediction] [Prediction] chance increased to 70%. [Prediction] effect upgraded to: +2% ATK, +2% DEF, and [Counter] damage increased by 10–15%. Can now stack up to 15 times, cannot be dispelled."
+          },
+          {
+            "name": "level 25",
+            "description": "[SparkFlash] [Volley] damage increased to 151%. Trigger condition adjusted to 8 stacks."
+          },
+          {
+            "name": "level 30",
+            "description": "When the 3rd turn starts, gains +25% Damage and 15% Crit Chance for 4 turns."
+          }
+        ]
+      }
+    ],
+
+    "equip": {
+      "name": "Equip",
+      "description": "Atk set",
+      "recommended": [
+        {
+          "name": "Judgment",
+          "image": "atk-head.png"
+        },
+        {
+          "name": "Glory",
+          "image": "atk-clothes.png"
+        },
+        {
+          "name": "Loyalty",
+          "image": "atk-gloves.png"
+        },
+        {
+          "name": "Punishment",
+          "image": "atk-shoes.png"
+        }
+      ]
+    },
+    "startmark": {
+      "name": "Starmark & Moon Badge",
+      "description": "",
+      "recommended": [
+        {
+          "name": "Clone",
+          "image": "clone.png",
+          "type": "Must Have"
+        },
+        {
+          "name": "Magic",
+          "image": "magic.png",
+          "type": "Recommend"
+        },
+        {
+          "name": "Devour",
+          "image": "devour.png"
+        },
+        {
+          "name": "dodge",
+          "image": "dodge.png"
+        },
+        {
+          "name": "Pierce",
+          "image": "pierce.png"
+        },
+        {
+          "name": "Awaken",
+          "image": "awaken.png"
+        }
+      ]
+    },
+    "artefact": {
+      "name": "Sacred Artifact",
+      "description": "",
+      "recommended": [
+        {
+          "name": "Serpent Constellation",
+          "image": "serpent-constellation.png"
+        },
+        {
+          "name": "Spirit Light Mask",
+          "image": "spirit-light-mask.png"
+        },
+        {
+          "name": "Crimson eyes",
+          "image": "crimson-eyes.png"
+        },
+        {
+          "name": "Illusion Fruit",
+          "image": "illusion-fruit.png"
+        },
+        {
+          "name": "Twisted Truth",
+          "image": "twisted-truth.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "7",
+    "title": "Caged Bird",
+    "name": "Elexia",
+    "link": "/heroes?heroNumber=7",
+    "role": "Single Unit Burst",
+    "launch_date": "",
+    "faction": "Ascension",
+    "type": "Destroyer",
+    "hero_image_url": "/static/images/heroes/elexia/full.png",
+    "hero_small_image_url": "/static/images/heroes/elexia/full.png",
+    "hero_medium_image_url": "/static/images/heroes/elexia/full.png",
+    "hero_large_image_url": "/static/images/heroes/elexia/full.png",
+    "hero_description": "Top-tier hero",
+    "rerun": "0",
+    "rating": 99,
+    "tier": "S",
+    "hero_id": "",
+    "review": "Good for boss",
+    "hero_published": "2025",
+    "content": "",
+    "contentSnippet": "",
+    "abilities": [
+      {
+        "name": "Bird in a Cage",
+        "type": "Burst | ShieldBreaker",
+        "icon": "swords",
+        "description": "",
+        "image": "/static/images/heroes/elexia/hab-0.png",
+        "levels": [
+          {
+            "name": "Lv.1",
+            "description": "Attacks the enemy with the lowest HP, dealing 298% of ATK as PDMG. If the target has a [Shield], the damage increases by an extra 20%."
+          },
+          {
+            "name": "Lv.2 (Automatically unlocks at 6-Star)",
+            "description": "Damage increases to 357%, and if the target has a [Shield], the damage increases by an extra 25%."
+          },
+          {
+            "name": "Lv.3 (Automatically unlocks at 10-Star)",
+            "description": "Damage increases to 417%, and if the target has a [Shield], the damage increases by an extra 30%."
+          }
+        ]
+      },
+      {
+        "name": "Limited Perspective",
+        "type": "Support | Revive",
+        "icon": "swords",
+        "description": "",
+        "image": "/static/images/heroes/elexia/hab-1.png",
+        "levels": [
+          {
+            "name": "Lv.1",
+            "description": "Has a 50% chance to launch [Support] whenever an allied unit launches a direct attack. Upon dying for the first time, revives and recovers 30% of Max HP."
+          },
+          {
+            "name": "Lv.2 (Automatically unlocks at 7-Star)",
+            "description": "Support chance increases to 60%, and Support damage increases to 120%. Upon reviving, now recovers 40% of Max HP."
+          },
+          {
+            "name": "Lv.3 (Automatically unlocks at 11-Star)",
+            "description": "Support chance increases to 70%, and Support damage increases to 140%. Upon reviving, now recovers 50% of Max HP."
+          },
+          {
+            "name": "[Support]",
+            "description": "The unit that triggers Support will use a Basic Attack to launch the Support attack. The Basic Attack is considered a Normal Attack and cannot trigger Combo or Pursue effects."
+          }
+        ]
+      },
+      {
+        "name": "Peerless Beauty",
+        "type": "Self | Buff",
+        "icon": "swords",
+        "description": "",
+        "image": "/static/images/heroes/elexia/hab-2.png",
+        "levels": [
+          {
+            "name": "Lv.1",
+            "description": "ncreases ATK by 20%, Max HP by 15%, and Crit Chance by 5%. If HP exceeds 80% at the start of the turn, gains [Allure], which increases ATK by 10% and damage by 10%. For every 25% of Max HP lost by the end of the turn, gains 1 stack of [Recluse], up to 3 stacks, which lasts for 1 turn."
+          },
+          {
+            "name": "Lv.2 (Automatically unlocks at 8-Star)",
+            "description": "Increases ATK by 35%, Max HP by 20%, and Crit Chance by 10%. If HP exceeds 80% at the start of the turn, gains [Allure], which increases ATK by 10% and damage by 15%. For every 20% of Max HP lost by the end of the turn, gains 1 stack of [Recluse], up to 4 stacks, which lasts for 1 turn."
+          },
+          {
+            "name": "Lv.3 (Automatically unlocks at 12-Star)",
+            "description": "Increases ATK by 45%, Max HP by 25%, and Crit Chance by 15%. If HP exceeds 60% at the start of the turn, gains [Allure], which increases ATK by 10% and damage by 20%. For every 15% of Max HP lost by the end of the turn, gains 1 stack of [Recluse], up to 5 stacks, which lasts for 1 turn."
+          },
+          {
+            "name": "[Allure]",
+            "description": "Increases ATK by 10% and damage by 10%, lasting for 1 turn."
+          },
+          {
+            "name": "[Recluse]",
+            "description": "Increases DMG RED by 10%, up to 3 stacks, lasting for 1 turn."
+          }
+        ]
+      },
+      {
+        "name": "Hunter's Instinct",
+        "type": "Buff | Burst",
+        "icon": "swords",
+        "description": "",
+        "image": "/static/images/heroes/elexia/hab-3.png",
+        "levels": [
+          {
+            "name": "Lv.1",
+            "description": "Whenever an enemy hero dies, gains 1 stack of [Ethereal], increasing damage by 6% and speed by 3% for 2 turns. This effect can stack up to 2 layers and cannot be removed. After attacking, gains 1 stack of [Desolation]. Once [Desolation] reaches 10 stacks, all stacks are consumed to deal 250% of ATK as PDMG that ignores 25% of DEF to the enemy with the lowest HP."
+          },
+          {
+            "name": "Lv.2 (Automatically unlocks at 9-Star)",
+            "description": "The effect of [Ethereal] is enhanced to increase damage by 9% and speed by 4%."
+          },
+          {
+            "name": "Lv.3 (Automatically unlocks at 13-Star)",
+            "description": "The effect of [Ethereal] is enhanced to increase damage by 12%, speed by 5%, and Crit Damage by 10%."
+          },
+          {
+            "name": "[Ethereal]",
+            "description": "Increases damage by 6% and speed by 3%. Can stack up to 2 layers, lasts for 2 turns, and cannot be removed."
+          },
+          {
+            "name": "[Desolation]",
+            "description": "When 10 stacks are accumulated, they are consumed to deal 250% of ATK as PDMG to the enemy with the lowest HP, ignoring 25% of their DEF."
+          }
+        ]
+      },
+      {
+        "name": "Awakened",
+        "type": "1-30",
+        "icon": "swords",
+        "description": "awk",
+        "image": "/static/images/heroes/elexia/preview.png",
+        "levels": [
+          {
+            "name": "Level 1",
+            "description": "Gains +20 Initial Rage."
+          },
+          {
+            "name": "Level 5",
+            "description": "[Bird in a Cage] Awakening Effect. Damage increases to 447%. If the target is killed, the skill is cast again with 70% power. This effect can trigger only once per turn"
+          },
+          {
+            "name": "Level 10",
+            "description": "Gains +10% Crit Chance"
+          },
+          {
+            "name": "Level 15",
+            "description": "Gains +30 Initial Rage."
+          },
+          {
+            "name": "Level 20",
+            "description": "[Limited Perspective] Awakening Effect. Support chance increases to 80%, and Support damage increases to 160%. Upon reviving, now recovers 60% of Max HP and gains 5 stacks of [Desolation]."
+          },
+          {
+            "name": "level 25",
+            "description": "[Hunter's Instinct] Awakening Effect. The effect of [Ethereal] is enhanced to increase damage by 15%, speed by 6%, and Crit Damage by 20%, while the duration is extended to 3 turns."
+          },
+          {
+            "name": "level 30",
+            "description": "When the 3rd turn starts, gains +25% Damage and 15% Crit Chance for 4 turns."
+          }
+        ]
+      }
+    ],
+
+    "equip": {
+      "name": "Equip",
+      "description": "Atk set",
+      "recommended": [
+        {
+          "name": "Judgment",
+          "image": "atk-head.png"
+        },
+        {
+          "name": "Glory",
+          "image": "atk-clothes.png"
+        },
+        {
+          "name": "Loyalty",
+          "image": "atk-gloves.png"
+        },
+        {
+          "name": "Punishment",
+          "image": "atk-shoes.png"
+        }
+      ]
+    },
+    "startmark": {
+      "name": "Starmark & Moon Badge",
+      "description": "",
+      "recommended": [
+        {
+          "name": "Phantom",
+          "image": "phantom.png",
+          "type": "Must Have"
+        },
+        {
+          "name": "Sharp Blade",
+          "image": "sharp-blade.png",
+          "type": "Recommend"
+        },
+        {
+          "name": "Devour",
+          "image": "devour.png"
+        },
+        {
+          "name": "dodge",
+          "image": "dodge.png"
+        },
+        {
+          "name": "Pierce",
+          "image": "pierce.png"
+        },
+        {
+          "name": "Awaken",
+          "image": "awaken.png"
+        }
+      ]
+    },
+    "artefact": {
+      "name": "Sacred Artifact",
+      "description": "",
+      "recommended": [
+        {
+          "name": "Serpent Constellation",
+          "image": "serpent-constellation.png"
+        },
+        {
+          "name": "Spirit Light Mask",
+          "image": "spirit-light-mask.png"
+        },
+        {
+          "name": "Crimson eyes",
+          "image": "crimson-eyes.png"
+        },
+        {
+          "name": "Illusion Fruit",
+          "image": "illusion-fruit.png"
+        },
+        {
+          "name": "Twisted Truth",
+          "image": "twisted-truth.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8",
+    "title": "Black Spider",
+    "name": "Mio",
+    "link": "/heroes?heroNumber=8",
+    "role": "Debuff",
+    "launch_date": "",
+    "faction": "Ascension",
+    "type": "Mana | Group Control",
+    "hero_image_url": "/static/images/heroes/mio/full.png",
+    "hero_small_image_url": "/static/images/heroes/mio/full.png",
+    "hero_medium_image_url": "/static/images/heroes/mio/full.png",
+    "hero_large_image_url": "/static/images/heroes/mio/full.png",
+    "hero_description": "Peaks: Debuff (11★ aw 15).\nOnly character in the game that reduces 25% speed and all heroes on the enemy team",
+    "rerun": "0",
+    "rating": 98,
+    "tier": "SSS",
+    "hero_id": "",
+    "review": "SPD reductuion",
+    "hero_published": "21/03/2025",
+    "content": "",
+    "contentSnippet": "",
+    "abilities": [
+      {
+        "name": "Everwoven Affection",
+        "type": "Group Control",
+        "icon": "swords",
+        "description": "",
+        "image": "/static/images/heroes/mio/hab-0.png",
+        "levels": [
+          {
+            "name": "Lv.1",
+            "description": "Applies 2 [Web] stacks to all enemies and deals 100% of her ATK as MDMG. Then, targets the enemy with the lowest HP, dealing 180% of her ATK as MDMG, with a 55% chance to apply [Imprison]."
+          },
+          {
+            "name": "Lv.2 (Automatically unlocks at 6-Star)",
+            "description": "Basic DMG increases to 120%, Pursue DMG increases to 210%, and the chance to apply [Imprison] increases to 70%."
+          },
+          {
+            "name": "Level 3 (Automatically unlocks at 10-Star)",
+            "description": "Basic DMG increases to 140%, applies 3 [Web] stacks, Pursue DMG increases to 240%, and the chance to apply [Imprison] increases to 85%."
+          },
+          {
+            "name": "[Shackled]",
+            "description": "Immobilized and -20% DEF for 1 turn."
+          },
+          {
+            "name": "[Web]",
+            "description": "SPD -5% for 2 turns, stacking up to 5 times."
+          }
+        ]
+      },
+      {
+        "name": "Flawless Interlace",
+        "type": "Group Debuff",
+        "icon": "swords",
+        "description": "",
+        "image": "/static/images/heroes/mio/hab-1.png",
+        "levels": [
+          {
+            "name": "Lv.1",
+            "description": "Basic attacks target all enemies, dealing 40% of her ATK as MDMG with a 70% chance to apply 1 [Web] stack."
+          },
+          {
+            "name": "Lv.2 (Automatically unlocks at 7-Star)",
+            "description": "Basic DMG increases to 50%, and the chance to apply [Web] increases to 80%."
+          },
+          {
+            "name": "Lv.3 (Automatically unlocks at 11-Star)",
+            "description": "Basic DMG increases to 60%, and the chance to apply [Web] increases to 90%."
+          },
+          {
+            "name": "[Web]",
+            "description": "SPD -5% for 2 turns, stacking up to 5 times."
+          }
+        ]
+      },
+      {
+        "name": "Elegant Strings",
+        "type": "Self Buff",
+        "icon": "swords",
+        "description": "",
+        "image": "/static/images/heroes/mio/hab-2.png",
+        "levels": [
+          {
+            "name": "Lv.1",
+            "description": "ATK +20%, Max HP +15%, DMG Bonus +10%. When attacking, for each stack of [Web] on the target, DMG dealt is increased by 1%, up to 5%."
+          },
+          {
+            "name": "Lv.2 (Automatically unlocks at 8-Star)",
+            "description": "ATK +35%, Max HP +20%, DMG Bonus +15%. When attacking, for each stack of [Web] on the target, DMG dealt is increased by 2%, up to 10%."
+          },
+          {
+            "name": "Lv.3 (Automatically unlocks at 12-Star)",
+            "description": "ATK +45%, Max HP +25%, DMG Bonus +20%. When attacking, for each stack of [Web] on the target, DMG dealt is increased by 3%, up to 15%."
+          },
+          {
+            "name": "[Web]",
+            "description": "SPD -5% for 2 turns, stacking up to 5 times."
+          }
+        ]
+      },
+      {
+        "name": "[Endless Threads] ",
+        "type": "Survival Pursue",
+        "icon": "swords",
+        "description": "",
+        "image": "/static/images/heroes/mio/hab-3.png",
+        "levels": [
+          {
+            "name": "Lv.1",
+            "description": "When dealing direct damage to a target with [Web], gain 1 [Thousand Threads] stack. Once [Thousand Threads] reaches 20 stacks, consume all stacks to release [Ten Thousand Strands], dealing 150% of her ATK as MDMG to all enemies, with a 25% chance to apply [Imprison]. In battle, when receiving direct damage and her HP drops below 40%, immediately restore 20% of her max HP. Can trigger up to 1 time per battle."
+          },
+          {
+            "name": "Lv.2 (Automatically unlocks at 9-Star)",
+            "description": "DMG of [Ten Thousand Strands] increases to 175%. In battle, when receiving direct damage and her HP drops below 45%, immediately restore 25% of her max HP. Can trigger up to 2 times per battle."
+          },
+          {
+            "name": "Lv.3 (Automatically unlocks at 13-Star)",
+            "description": "DMG of [Ten Thousand Strands] increases to 200%. In battle, when receiving direct damage and her HP drops below 50%, immediately restore 30% of her max HP. Can trigger up to 3 times per battle."
+          },
+          {
+            "name": "[Web]",
+            "description": "SPD -5% for 2 turns, stacking up to 5 times.."
+          },
+          {
+            "name": "[Thousand Threads]",
+            "description": "Once [Thousand Threads] reaches 20 stacks, consume all stacks to release [Ten Thousand Strands], dealing 150% of her ATK as MDMG to all enemies, with a 25% chance to apply [Imprison]."
+          },
+          {
+            "name": "[Shackled]",
+            "description": "Immobilized and -20% DEF for 1 turn."
+          }
+        ]
+      },
+      {
+        "name": "Awakened",
+        "type": "1-30",
+        "icon": "swords",
+        "description": "awk",
+        "image": "/static/images/heroes/mio/preview.png",
+        "levels": [
+          {
+            "name": "Lv.1",
+            "description": "Gains +20 Initial Rage."
+          },
+          {
+            "name": "Lv.5",
+            "description": "[Everwoven Affection] Awakening Effect. Basic DMG increases to 151%, Pursue DMG increases to 270%, and the chance to apply [Imprison] increases to 100%."
+          },
+          {
+            "name": "Lv.10",
+            "description": "Gains +10% Control Chance"
+          },
+          {
+            "name": "Lv.15",
+            "description": "Gains +30 Initial Rage"
+          },
+          {
+            "name": "Lv.20",
+            "description": "[Flawless Interlace] Awakening Effect. Basic DMG increases to 80%, and the chance to apply [Web] increases to 100%."
+          },
+          {
+            "name": "lv.25",
+            "description": "[Endless Threads] Awakening Effect. DMG of [Ten Thousand Strands] increases to 225%. In battle, when receiving direct damage and her HP drops below 60%, immediately restore 40% of her max HP. Can trigger up to 3 times per battle."
+          },
+          {
+            "name": "lv.30",
+            "description": "When the 3rd turn starts, gains +25% Damage and 15% Crit Chance for 4 turns."
+          }
+        ]
+      }
+    ],
+
+    "equip": {
+      "name": "Equip",
+      "description": "Atk set",
+      "recommended": [
+        {
+          "name": "Judgment",
+          "image": "atk-head.png"
+        },
+        {
+          "name": "Glory",
+          "image": "atk-clothes.png"
+        },
+        {
+          "name": "Loyalty",
+          "image": "atk-gloves.png"
+        },
+        {
+          "name": "Punishment",
+          "image": "atk-shoes.png"
+        }
+      ]
+    },
+    "startmark": {
+      "name": "Starmark & Moon Badge",
+      "description": "",
+      "recommended": [
+        {
+          "name": "Clone",
+          "image": "clone.png",
+          "type": "Must Have"
+        },
+        {
+          "name": "Magic",
+          "image": "magic.png",
+          "type": "Recommend"
+        },
+        {
+          "name": "Devour",
+          "image": "devour.png",
+          "type": "Recommend"
+        },
+        {
+          "name": "Pursue",
+          "image": "pursue.png",
+          "type": "Recommend"
+        },
+        {
+          "name": "Taunt",
+          "image": "taunt.png",
+          "type": "Recommend"
+        },
+        {
+          "name": "Awaken",
+          "image": "awaken.png"
+        }
+      ]
+    },
+    "artefact": {
+      "name": "Sacred Artifact",
+      "description": "",
+      "recommended": [
+        {
+          "name": "Spirit Light Mask",
+          "image": "spirit-light-mask.png"
+        },
+        {
+          "name": "Crimson eyes",
+          "image": "crimson-eyes.png"
+        },
+        {
+          "name": "Illusion Fruit",
+          "image": "illusion-fruit.png"
+        },
+        {
+          "name": "Twisted Truth",
+          "image": "twisted-truth.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9",
+    "title": "",
+    "name": "Christie",
+    "link": "/heroes?heroNumber=9",
+    "role": "DPS",
+    "launch_date": "",
+    "faction": "Advent",
+    "type": "Destroyer | Combo",
+    "hero_image_url": "/static/images/heroes/christie/full.png",
+    "hero_small_image_url": "/static/images/heroes/christie/full.png",
+    "hero_medium_image_url": "/static/images/heroes/christie/full.png",
+    "hero_large_image_url": "/static/images/heroes/christie/full.png",
+    "hero_description": "Top-tier hero",
+    "rerun": "0",
+    "rating": 110,
+    "tier": "SSS",
+    "hero_id": "",
+    "review": "Invincible",
+    "hero_published": "2025",
+    "content": "",
+    "contentSnippet": "",
+    "abilities": [
+      {
+        "name": "Endless Execution",
+        "type": "Rage Burst",
+        "icon": "swords",
+        "description": "",
+        "image": "/static/images/heroes/christie/hab-0.png",
+        "levels": [
+          {
+            "name": "Lv.1",
+            "description": "Attacks the enemy unit with the highest ATK, dealing 298% ATK as physical damage ignoring shield and 30% of DEF, and inflicts true damage equal to 50% of the caster's ATK. Also deals 100% ATK as ranged damage ignoring shield and 30% of DEF to surrounding enemies. All hit enemies lose 30 Rage."
+          },
+          {
+            "name": "Lv.2 (Automatically unlocks at 6-Star)",
+            "description": "Main target damage increases to 357%, attached true damage increases to 70%, and ranged splash damage increases to 120%. If a [Hate] target is on the field, it will be prioritized."
+          },
+          {
+            "name": "Lv.3 (Automatically unlocks at 10-Star)",
+            "description": "Main target damage increases to 417%, attached true damage increases to 90%, and splash damage increases to 140%."
+          }
+        ]
+      },
+      {
+        "name": "Ferocious War Chariot",
+        "type": "Follow-Up Debuff",
+        "icon": "swords",
+        "description": "",
+        "image": "/static/images/heroes/christie/hab-1.png",
+        "levels": [
+          {
+            "name": "Lv.1",
+            "description": "When attacking, has a 30% chance to inflict 1 stack of [Marked]. At the start of battle, automatically casts [War Chariot], dealing 213% ATK as physical damage to the enemy unit with the highest ATK in their row. Each time the caster is directly attacked, gains 1 stack of [War Fury] (up to 5 stacks, cannot be dispelled). When [War Fury] reaches 5 stacks, all stacks are consumed to release [War Chariot] again."
+          },
+          {
+            "name": "Lv.2 (Automatically unlocks at 6-Star)",
+            "description": "[Marked] chance increased to 40%, [War Chariot] damage increased to 256%."
+          },
+          {
+            "name": "Lv.3 (Automatically unlocks at 10-Star)",
+            "description": "[Marked] chance increased to 50%, [War Chariot] damage increased to 299%."
+          },
+          {
+            "name": "[Marked]",
+            "description": "Target suffers: ATK -5%, DEF -5%, Damage Taken +5%, Healing Received -10%, Can stack up to 10 times."
+          },
+          {
+            "name": "[War Fury]",
+            "description": "When stacked to 5 layers, all stacks are consumed to trigger [War Chariot]. Cannot be dispelled, removed only upon death."
+          }
+        ]
+      },
+      {
+        "name": "Horn of the Storm",
+        "type": "Marking Buff",
+        "icon": "swords",
+        "description": "",
+        "image": "/static/images/heroes/christie/hab-2.png",
+        "levels": [
+          {
+            "name": "Lv.1",
+            "description": "Increases ATK by 25%, Max HP by 20%, and Damage Bonus by 10%.  At the start of battle, consumes 50% of current HP to  boost self ATK by 20% for 2 turns, and marks the enemy unit with the highest ATK with [Hatred]. This mark cannot be removed and lasts until the target dies. When the [Hatred] target dies, the mark is automatically transferred to the next enemy unit with the highest ATK."
+          },
+          {
+            "name": "Lv.2 (Automatically unlocks at 8-Star)",
+            "description": "Increases ATK by 40%, Max HP by 25%, and Damage Bonus by 15%. ATK boost from HP cost increases to 30%."
+          },
+          {
+            "name": "Lv.3 (Automatically unlocks at 12-Star)",
+            "description": "Increases ATK by 50%, Max HP by 30%, and Damage Bonus by 20%. ATK boost from HP cost increases to 40%."
+          },
+          {
+            "name": "[Hatred]",
+            "description": "If the unit dies, the mark will be transferred to the remaining enemy unit with the highest ATK."
+          }
+        ]
+      },
+      {
+        "name": "Deep Winter Hunt",
+        "type": "",
+        "icon": "swords",
+        "description": "",
+        "image": "/static/images/heroes/christie/hab-3.png",
+        "levels": [
+          {
+            "name": "Lv.1",
+            "description": "Each time the caster takes direct damage, immediately triggers [Revenge], dealing 150% ATK as physical damage to the [Hatred] target, ignoring shields and 50% of their DEF. When receiving fatal damage, cleanses all negative effects from self and restores 40% Max HP. Grants [Invincible] for 1 turn and enters [Hunt] state, increasing ATK by 15%, Crit by 15%, and granting immunity to control effects. This state lasts until the end of battle, cannot be dispelled, and this effect can only occur once per battle."
+          },
+          {
+            "name": "Lv.2 (Automatically unlocks at 9-Star)",
+            "description": "HP recovery increased to 50%, [Hunt] buff increased to +20% ATK and +20% Crit."
+          },
+          {
+            "name": "Lv.3 (Automatically unlocks at 13-Star)",
+            "description": "HP recovery increased to 60%, [Hunt] buff increased to +25% ATK and +25% Crit. When first triggered, all other allied units gain [Mist] for 1 turn (cannot be targeted)."
+          },
+          {
+            "name": "[Invincible]",
+            "description": "Immune to all damage during the effect duration."
+          },
+          {
+            "name": "[Hunt]",
+            "description": "Increases ATK by 15%, Crit by 15%, and grants immunity to all control effects. Cannot be dispelled."
+          },
+          {
+            "name": "[Mist]",
+            "description": "Unit cannot be targeted during the effect duration."
+          }
+        ]
+      },
+      {
+        "name": "Awakened",
+        "type": "1-30",
+        "icon": "swords",
+        "description": "awk",
+        "image": "/static/images/heroes/christie/preview.png",
+        "levels": [
+          {
+            "name": "Lv.1",
+            "description": "Gains +20 Initial Rage."
+          },
+          {
+            "name": "Lv.5",
+            "description": "[Endless Execution] Main target damage increased to 447% Attached true damage increased to 110% Splash damage increased to 150%"
+          },
+          {
+            "name": "Lv.10",
+            "description": "Gains +10% Crit Chance"
+          },
+          {
+            "name": "Lv.15",
+            "description": "Gains +30 Initial Rage"
+          },
+          {
+            "name": "Lv.20",
+            "description": "[Ferocious War Chariot] [Marked] chance increased to 60% [War Chariot] damage increased to 324% When the caster kills an enemy, immediately triggers [War Chariot] once (no cost)."
+          },
+          {
+            "name": "Lv.25",
+            "description": "[Deep Winter Hunt] HP recovery increased to 70% At the start of battle, applies 3 stacks of [Marked] to all enemies."
+          },
+          {
+            "name": "Lv.30",
+            "description": "When the 3rd turn starts, gains +25% Damage and 15% Crit Chance for 4 turns."
+          }
+        ]
+      }
+    ],
+
+    "equip": {
+      "name": "Equip",
+      "description": "Atk set",
+      "recommended": [
+        {
+          "name": "Judgment",
+          "image": "atk-head.png"
+        },
+        {
+          "name": "Glory",
+          "image": "atk-clothes.png"
+        },
+        {
+          "name": "Loyalty",
+          "image": "atk-gloves.png"
+        },
+        {
+          "name": "Punishment",
+          "image": "atk-shoes.png"
+        }
+      ]
+    },
+    "startmark": {
+      "name": "Starmark & Moon Badge",
+      "description": "",
+      "recommended": [
+        {
+          "name": "Phantom",
+          "image": "phantom.png",
+          "type": "Must Have"
+        },
+        {
+          "name": "Sharp Blade",
+          "image": "sharp-blade.png",
           "type": "Recommend"
         },
         {

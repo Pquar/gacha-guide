@@ -1,0 +1,243 @@
+{
+  "id": "999",
+  "title": "",
+  "name": "x1x1",
+  "link": "/heroes?heroNumber=999",
+  "role": "",
+  "launch_date": "",
+  "faction": "Ascension",
+  "type": "",
+  "hero_image_url": "/static/images/heroes/x1x1/full.png",
+  "hero_small_image_url": "/static/images/heroes/x1x1/full.png",
+  "hero_medium_image_url": "/static/images/heroes/x1x1/full.png",
+  "hero_large_image_url": "/static/images/heroes/x1x1/full.png",
+  "hero_description": "Top-tier hero",
+  "rerun": "0",
+  "rating": 100,
+  "tier": "SS",
+  "hero_id": "",
+  "review": "",
+  "hero_published": "2025",
+  "content": "",
+  "contentSnippet": "",
+  "abilities": [
+    {
+      "name": "[h1]",
+      "type": "",
+      "icon": "swords",
+      "description": "",
+      "image": "/static/images/heroes/x1x1/hab-0.jpg",
+      "levels": [
+        {
+          "name": "Lv.1",
+          "description": ""
+        },
+        {
+          "name": "Lv.2 (Automatically unlocks at 6-Star)",
+          "description": ""
+        },
+        {
+          "name": "Lv.3 (Automatically unlocks at 10-Star)",
+          "description": ""
+        },
+        {
+          "name": "[]",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "[h2] ",
+      "type": "",
+      "icon": "swords",
+      "description": "",
+      "image": "/static/images/heroes/x1x1/hab-1.jpg",
+      "levels": [
+        {
+          "name": "Lv.1",
+          "description": ""
+        },
+        {
+          "name": "Lv.2 (Automatically unlocks at 7-Star)",
+          "description": ""
+        },
+        {
+          "name": "Lv.3 (Automatically unlocks at 11-Star)",
+          "description": ""
+        },
+        {
+          "name": "[]",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "[h3] ",
+      "type": "",
+      "icon": "swords",
+      "description": "",
+      "image": "/static/images/heroes/x1x1/hab-2.jpg",
+      "levels": [
+        {
+          "name": "Lv.1",
+          "description": ""
+        },
+        {
+          "name": "Lv.2 (Automatically unlocks at 8-Star)",
+          "description": ""
+        },
+        {
+          "name": "Lv.3 (Automatically unlocks at 12-Star)",
+          "description": ""
+        },
+        {
+          "name": "[]",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "[h4]",
+      "type": "",
+      "icon": "swords",
+      "description": "",
+      "image": "/static/images/heroes/x1x1/hab-3.jpg",
+      "levels": [
+        {
+          "name": "Lv.1",
+          "description": ""
+        },
+        {
+          "name": "Lv.2 (Automatically unlocks at 9-Star)",
+          "description": ""
+        },
+        {
+          "name": "Lv.3 (Automatically unlocks at 13-Star)",
+          "description": ""
+        },
+        {
+          "name": "[]",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Awakened",
+      "type": "1-30",
+      "icon": "swords",
+      "description": "awk",
+      "image": "/static/images/heroes/x1x1/preview.png",
+      "levels": [
+        {
+          "name": "Lv.1",
+          "description": "Gains +20 Initial Rage."
+        },
+        {
+          "name": "Lv.5",
+          "description": "[h1]"
+        },
+        {
+          "name": "Lv.10",
+          "description": "Gains +10% Crit Chance"
+        },
+        {
+          "name": "Lv.15",
+          "description": "Gains +30 Initial Rage"
+        },
+        {
+          "name": "Lv.20",
+          "description": "[h2]"
+        },
+        {
+          "name": "Lv.25",
+          "description": "[h4]"
+        },
+        {
+          "name": "Lv.30",
+          "description": "When the 3rd turn starts, gains +25% Damage and 15% Crit Chance for 4 turns."
+        }
+      ]
+    }
+  ],
+
+  "equip": {
+    "name": "Equip",
+    "description": "Atk set",
+    "recommended": [
+      {
+        "name": "Judgment",
+        "image": "atk-head.png"
+      },
+      {
+        "name": "Glory",
+        "image": "atk-clothes.png"
+      },
+      {
+        "name": "Loyalty",
+        "image": "atk-gloves.png"
+      },
+      {
+        "name": "Punishment",
+        "image": "atk-shoes.png"
+      }
+    ]
+  },
+  "startmark": {
+    "name": "Starmark & Moon Badge",
+    "description": "",
+    "recommended": [
+      {
+        "name": "Clone",
+        "image": "clone.png",
+        "type": "Must Have"
+      },
+      {
+        "name": "Magic",
+        "image": "magic.png",
+        "type": "Recommend"
+      },
+      {
+        "name": "Devour",
+        "image": "devour.png"
+      },
+      {
+        "name": "dodge",
+        "image": "dodge.png"
+      },
+      {
+        "name": "Pierce",
+        "image": "pierce.png"
+      },
+      {
+        "name": "Awaken",
+        "image": "awaken.png"
+      }
+    ]
+  },
+  "artefact": {
+    "name": "Sacred Artifact",
+    "description": "",
+    "recommended": [
+      {
+        "name": "Serpent Constellation",
+        "image": "serpent-constellation.png"
+      },
+      {
+        "name": "Spirit Light Mask",
+        "image": "spirit-light-mask.png"
+      },
+      {
+        "name": "Crimson eyes",
+        "image": "crimson-eyes.png"
+      },
+      {
+        "name": "Illusion Fruit",
+        "image": "illusion-fruit.png"
+      },
+      {
+        "name": "Twisted Truth",
+        "image": "twisted-truth.png"
+      }
+    ]
+  }
+}

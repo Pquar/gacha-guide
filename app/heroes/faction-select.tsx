@@ -17,8 +17,8 @@ export const FACTION: {
     value: 'Advent',
   },
   {
-    label: 'Dark',
-    value: 'Dark',
+    label: 'Ascension',
+    value: 'Ascension',
   },
   {
     label: 'Green',
@@ -34,7 +34,7 @@ export const FACTION: {
   },
 ]
 
-export type FactionType = 'all' | 'Advent' | 'Dark' | 'Green' | 'Blue' | 'Red'
+export type FactionType = 'all' | 'Advent' | 'Ascension' | 'Green' | 'Blue' | 'Red'
 export function FactionSelect({ faction }: { faction: FactionType }) {
   let { label, value: selectedValue } = FACTION.find(({ value }) => value === faction) || FACTION[0]
 
