@@ -93,8 +93,8 @@ function HeroSummary({ hero }: { hero: Heroes }) {
           <p>{hero.faction}</p>
         </div>
         <div>
-          <h4 className="font-semibold">Role</h4>
-          <p>{hero.role}</p>
+          <h4 className="font-semibold">Type</h4>
+          <p>{hero.type}</p>
         </div>
         <div>
           <h4 className="font-semibold">Tier</h4>
@@ -123,7 +123,7 @@ function HeroRecommended({ hero }: { hero: Heroes }) {
 
               <div className="flex flex-wrap gap-3">
                 {item.recommended.map((rec, recIndex) => (
-                  <div key={recIndex} className="group relative flex flex-col items-center">
+                  <div key={recIndex} className="group relative flex flex-col items-center max-w-16 text-center">
                     <div className="relative h-16 w-16 overflow-hidden rounded-md border-2 border-gray-200 transition-all group-hover:border-blue-500 dark:border-gray-600">
                       <Image
                         src={'/static/images/equip/'+rec.image}

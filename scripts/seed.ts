@@ -97,6 +97,7 @@ export async function fetchHeroes() {
         title: 'Muteki Shin',
         name: 'Tomoe',
         link: '/heroes?heroNumber=1',
+        type: 'dps',
         role: 'DPS | Buffer',
         launch_date: '21/03/2025',
         faction: 'Advent',

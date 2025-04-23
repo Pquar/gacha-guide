@@ -14,7 +14,7 @@ interface HeroListProps {
 export function HeroesList({ heroes }: HeroListProps) {
   const searchParams = useSearchParams()
   const faction = (searchParams.get('faction') as FactionType) || 'all'
-  const heroNumber = (searchParams.get('heroNumber') as HeroNumberType) || '1'
+  const heroNumber = (searchParams.get('heroNumber') as HeroNumberType) || 'all'
 
   // Get current faction label
   const { label } = FACTION.find(({ value }) => value === faction) || FACTION[0]

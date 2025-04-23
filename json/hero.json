@@ -209,5 +209,1052 @@
         }
       ]
     }
+  },
+  {
+    "id": "2",
+    "title": "The King of Boundless",
+    "name": "Zenith",
+    "link": "/heroes?heroNumber=2",
+    "role": "DPS | Buffer",
+    "launch_date": "---",
+    "faction": "Ascension",
+    "type": "Destroyer / Transformation",
+    "hero_image_url": "/static/images/heroes/zenith/full.png",
+    "hero_small_image_url": "/static/images/heroes/zenith/full.png",
+    "hero_medium_image_url": "/static/images/heroes/zenith/full.png",
+    "hero_large_image_url": "/static/images/heroes/zenith/full.png",
+    "hero_description": "Top-tier hero",
+    "rerun": "0",
+    "rating": 100,
+    "tier": "SSS",
+    "hero_id": "Mon, 16 Dec 2024 08:02:43 -0800",
+    "review": "",
+    "hero_published": "2025",
+    "content": "",
+    "contentSnippet": "",
+    "abilities": [
+      {
+        "name": "Brilliant and blazing",
+        "type": "Single Unit / debuff",
+        "icon": "swords",
+        "description": "Deals massive physical damage to highest ATK enemy",
+        "image": "/static/images/heroes/zenith/hab-0.jpg",
+        "levels": [
+          {
+            "name": "Level 1",
+            "description": "Lock on the enemy's position target. If there is no unit at that position, select the target with the highest enemy ATK, mark it as [Enemy], and attack it, causing physical damage of 298% of ATK and ignoring 20% ​​of DEF, and there is a 50% chance to add [Burn] and [DEF Reduction] to the target respectively. After the special move is successfully released, zenith will chase all enemies and cause True DMG equal to 30% of the ATK."
+          },
+          {
+            "name": "Level 2",
+            "description": "The damage of the special move is increased to 357% of the ATK, ignoring 25% of the DEF, and the probability of adding [burn] and [DEF reduction] is increased to 60%; the follow-up damage is increased to 50% of the ATK and the target's anger is reduced by an additional 30 points after hitting."
+          },
+          {
+            "name": "Level 3",
+            "description": "The damage of the special move is increased to 417% of the ATK, ignoring 25% of the DEF, and the probability of adding [Burn] and [DEF reduction] is increased to 80%, and there is an additional 50% probability of adding [red temperature]; the pursuit damage is increased to 80% of the ATK and the target's anger is reduced by an additional 30 points after hitting."
+          },
+          {
+            "name": "Awakened",
+            "description": "The damage of the special move is increased to 447% of the ATK, ignoring 25% of the DEF. When attacking, for every stack of debuff on the target, the special move will cause an additional 12% of the ATK as True DMG, which can be stacked up to 120% of the ATK. The probability of adding [Burn] and [DEF Reduction] is increased to 90%."
+          },
+          {
+            "name": "[Enemy]",
+            "description": "The hit rate is reduced by 20%, and the unit with this status will be locked by zenith as the priority target (the group is not affected), and the damage taken by the caster will be increased by 30%, and the support effect of Overlord's Protection will not be triggered when attacked. It lasts for 2 turns and cannot be dispelled."
+          },
+          {
+            "name": "[Burn]",
+            "description": "Takes damage equal to [20% of the caster's ATK] as HP every turn for 2 turns. Up to 5 stacks."
+          },
+          {
+            "name": "[DEF Down]",
+            "description": "-10% DEF for 2 turns, up to 5 stacks"
+          },
+          {
+            "name": "[Red Temperature]",
+            "description": "Unable to act, unable to recover health and rage, unable to gain buffs, lasts for 1 turn, cannot be cleared."
+          }
+        ]
+      },
+      {
+        "name": "Buried in the Abyss Fire",
+        "type": "Single / Debuff",
+        "icon": "swords",
+        "description": "Normal attacks prioritize highest ATK",
+        "image": "/static/images/heroes/zenith/hab-1.jpg",
+        "levels": [
+          {
+            "name": "Level 1",
+            "description": "At the start of the battle, it will attack all enemies, causing physical damage equal to 100% of the target's ATK and adding 2% of the target's maximum health, ignoring DEF damage (no more than 3 times of zenith's ATK). After it is released, it will add a [Damage Shield] that lasts for 2 turns to all enemies at 30% of the total damage, and at the same time turn the enemy's position into a [Shura Field] (which will disappear when zenith dies). It can only be triggered once per battle."
+          },
+          {
+            "name": "Level 2",
+            "description": "The raid damage is increased to 120% of the ATK, the additional damage is increased to 4% of the target's upper life limit (no more than 3 times zenith's ATK), and the [Damage Shield] is increased to 40% of the total damage."
+          },
+          {
+            "name": "Level 3",
+            "description": "The raid damage is increased to 140% of the ATK, the additional damage is increased to 6% of the target's upper life limit (no more than 3 times zenith's ATK), and the [Damage Shield] is increased to 50% of the total damage."
+          },
+          {
+            "name": "Awakened",
+            "description": "Raid damage increased to 150% of ATK, additional damage increased to 7% of target's upper life limit (no more than 3 times of zenith's ATK), and an additional stack of [Burn] is added, and [Damage Shield] is increased to 60% of total damage."
+          },
+          {
+            "name": "[Damage Shield]",
+            "description": "The shield is equal to 30% of the caster's skill damage, lasting for 2 turns."
+          },
+          {
+            "name": "[Shura Field]",
+            "description": "The enemy's speed is reduced by 5%. At the beginning of each turn, enemy survivors have a 60% chance to gain 1 stack of [Burn]."
+          }
+        ]
+      },
+      {
+        "name": "The stars shine",
+        "type": "Self / Buff",
+        "icon": "swords",
+        "description": "Normal attacks prioritize highest ATK",
+        "image": "/static/images/heroes/zenith/hab-2.jpg",
+        "levels": [
+          {
+            "name": "Level 1",
+            "description": "ATK increased by 25%, health limit increased by 20%, and critical rate increased by 5%. When releasing normal attacks and special moves, there is a 60% chance to convert 1 buff on the target into [Burn] and gain 1 stack of [Sharpness]. This can be triggered up to 5 times in the same turn. When attacking, for each stack of [Burn] on the target, the damage will be increased by 5%, up to 25%."
+          },
+          {
+            "name": "Level 2",
+            "description": "ATK increased by 40%, HP increased by 25%, and crit rate increased by 10%; when releasing normal attacks and special moves, there is a 70% chance to convert 1 buffed bear on the target into [Burn]"
+          },
+          {
+            "name": "Level 3",
+            "description": "Increases ATK by 50%, HP by 30%, and Crit rate by 15%; when releasing normal attacks and special moves, there is an 80% chance to convert 1 buffed bear on the target into [Burn]."
+          },
+          {
+            "name": "[Burn]",
+            "description": "Takes damage equal to [20% of the caster's ATK] as HP every turn for 2 turns. Up to 5 stacks."
+          },
+          {
+            "name": "[Sharpness]",
+            "description": "Increases your ATK by 1.5% and damage by 1.5%, with a maximum stack of 10. It cannot be dispelled."
+          }
+        ]
+      },
+      {
+        "name": "Pojun Nine Transformations",
+        "type": "Self / increase",
+        "icon": "swords",
+        "description": "Normal attacks prioritize highest ATK",
+        "image": "/static/images/heroes/zenith/hab-3.jpg",
+        "levels": [
+          {
+            "name": "Level 1",
+            "description": "When HP falls below 50%, zenith transforms into [Pojun General Star], dispelling all debuffs and restoring 20% of his max HP, while granting [Unstoppable Force] to all Ascension Faction allies. Can only trigger once per battle."
+          },
+          {
+            "name": "Level 2",
+            "description": "[Pojun General Star] transformation threshold adjusted to when HP falls below 60%, HP restoration increased to 25%."
+          },
+          {
+            "name": "Level 3",
+            "description": "[Pojun General Star] transformation threshold adjusted to when HP falls below 70%, HP restoration increased to 30%."
+          },
+          {
+            "name": "Awakened",
+            "description": "[Draw Slash]'s DMG increases to 180% + 40% * the number of [Fury Surge] stacks, with an 80% chance to reduce the target's DEF by 25%."
+          },
+          {
+            "name": "[Pojun General Star]",
+            "description": "gains +30% Attack and +20% Damage Reduction, and becomes immune to all control effects."
+          },
+          {
+            "name": "[Unstoppable]",
+            "description": "Increases final damage by 5%, increases final damage reduction by 5%, lasts for 4 turns, cannot be cleared."
+          }
+        ]
+      },
+      {
+        "name": "Awakened",
+        "type": "1-30",
+        "icon": "swords",
+        "description": "awk",
+        "image": "/static/images/heroes/zenith/preview.png",
+        "levels": [
+          {
+            "name": "Level 1",
+            "description": "Initial Rage +20."
+          },
+          {
+            "name": "Level 5",
+            "description": "[Brilliant Blazing] Awakening Effect: The damage of the special move is increased to 447% of the ATK, ignoring 25% of the DEF. When attacking, for every stack of debuff on the target, the special move will cause an additional 12% of the ATK as True DMG, which can be stacked up to 120% of the ATK. The probability of adding [Burn] and [DEF Reduction] is increased to 90%."
+          },
+          {
+            "name": "Level 10",
+            "description": "10% speed"
+          },
+          {
+            "name": "Level 15",
+            "description": "Initial Rage +30"
+          },
+          {
+            "name": "Level 20",
+            "description": "[Burial Abyss Fire] Awakening Effect: Raid damage increased to 150% of ATK, additional damage increased to 7% of target's upper life limit (no more than 3 times of Luo Zuo's ATK), and an additional stack of [Burn] is added, and [Damage Shield] is increased to 60% of total damage."
+          },
+          {
+            "name": "level 25",
+            "description": "[Pojun General Star] awakening effect: The incarnation condition of [Po Jun Jiang Xing] is adjusted to when the health is less than 75%, the health restored by the incarnation is increased to 35%; after the incarnation, 3 stacks of [Burn] will be added to all enemies."
+          },
+          {
+            "name": "level 30",
+            "description": "At the beginning of the hero's 3rd turn, his damage increases by 25% and his crit rate increases by 15%, which lasts for 4 turns."
+          }
+        ]
+      }
+    ],
+
+    "equip": {
+      "name": "Equip",
+      "description": "Atk set",
+      "recommended": [
+        {
+          "name": "Judgment",
+          "image": "atk-head.png"
+        },
+        {
+          "name": "Glory",
+          "image": "atk-clothes.png"
+        },
+        {
+          "name": "Loyalty",
+          "image": "atk-gloves.png"
+        },
+        {
+          "name": "Punishment",
+          "image": "atk-shoes.png"
+        }
+      ]
+    },
+    "startmark": {
+      "name": "Starmark & Moon Badge",
+      "description": "",
+      "recommended": [
+        {
+          "name": "Devour",
+          "image": "devour.png",
+          "type": "Must Have"
+        },
+        {
+          "name": "Crit",
+          "image": "crit.png",
+          "type": "Recommend"
+        },
+        {
+          "name": "Sharp Blade",
+          "image": "sharp-blade.png",
+          "type": "Recommend"
+        },
+        {
+          "name": "Phantom",
+          "image": "phantom.png",
+          "type": "Recommend"
+        },
+        {
+          "name": "Pierce",
+          "image": "pierce.png"
+        },
+        {
+          "name": "Awaken",
+          "image": "awaken.png"
+        }
+      ]
+    },
+    "artefact": {
+      "name": "Sacred Artifact",
+      "description": "",
+      "recommended": [
+        {
+          "name": "Spirit Light Mask",
+          "image": "spirit-light-mask.png",
+          "type": "Recommend"
+        },
+        {
+          "name": "Evernight Candle",
+          "image": "evernight-candle.png"
+        },
+        {
+          "name": "Crimson eyes",
+          "image": "crimson-eyes.png"
+        },
+        {
+          "name": "Illusion Fruit",
+          "image": "illusion-fruit.png"
+        },
+        {
+          "name": "Twisted Truth",
+          "image": "twisted-truth.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3",
+    "title": "The Marshal Command",
+    "name": "masha",
+    "link": "/heroes?heroNumber=3",
+    "role": "DPS | Buffer",
+    "launch_date": "--",
+    "faction": "Advent",
+    "type": "Destroyer / Transformation",
+    "hero_image_url": "/static/images/heroes/masha/full.png",
+    "hero_small_image_url": "/static/images/heroes/masha/full.png",
+    "hero_medium_image_url": "/static/images/heroes/masha/full.png",
+    "hero_large_image_url": "/static/images/heroes/masha/full.png",
+    "hero_description": "Top-tier hero",
+    "rerun": "0",
+    "rating": 100,
+    "tier": "SSS",
+    "hero_id": "Mon, 16 Dec 2024 08:02:43 -0800",
+    "review": "",
+    "hero_published": "2025",
+    "content": "",
+    "contentSnippet": "",
+    "abilities": [
+      {
+        "name": "Heaven's Web Strike",
+        "type": "Burst / ShieldBreaker",
+        "icon": "swords",
+        "description": "",
+        "image": "/static/images/heroes/masha/hab-0.png",
+        "levels": [
+          {
+            "name": "Level 1",
+            "description": "Deals 298% of her ATK as PDMD to enemy with the lowest HP and ignoring 20% of the target’s DEF, and deals an additional 30% of attack as True DMG. Before attacking, absorbs all shields on the target; for each type of shield absorbed, damage increases by 10%, up to 2 stacks."
+          },
+          {
+            "name": "Level 2",
+            "description": "Increases DMG to 357%, and ignoring 25% of the target’s DEF, and deals an additional 40% of attack as True DMG. Has a 40% chance to inflict [Imprison] on the target. For each type of shield absorbed before the attack, damage increases by 15%, up to 2 stacks. Upon attacking, there's a 60% chance to generate 0–4 stacks of [Phantom Sword]."
+          },
+          {
+            "name": "Level 3",
+            "description": "Increases DMG to 417%, ignoring 30% of the target’s DEF, and deals an additional 50% of attack as True DMG. Has a 55% chance to inflict [Imprison] on the target. For each type of shield absorbed before the attack, this attack’s damage increases by 20%, up to 2 stacks. When attacking, has an 80% chance to generate 0–4 stacks of [Phantom Sword]. After the attack, there is a 40% chance to deal 250% of attack as physical damage to the enemy with the lowest HP."
+          },
+          {
+            "name": "[Phantom Sword]",
+            "description": "Increases attack by 2% and damage reduction by 1% per stack, up to a maximum of 15 stacks. Cannot be dispelled. Upon death, half of the stacks are lost. When the stack reaches 15, all stacks are consumed to trigger Phantom Sword Slash."
+          },
+          {
+            "name": "[Phantom Sword Slash]",
+            "description": "Deals 180% True DMG to all enemies based on ATK, and adds additional True DMG equal to 6% of max HP (not exceeding 3 times the ATK). Simultaneously dispels 1 buff from the target. Has a 30% chance to additionally apply 1 stack of [Burn]. If the target already has Burn, this attack’s damage (excluding bonus damage) is increased by 20%."
+          },
+          {
+            "name": "[Burn]",
+            "description": "Takes damage equal to [20% of the caster's ATK] as HP every turn for 2 turns. Up to 5 stacks."
+          },
+          {
+            "name": "[Imprisoned]",
+            "description": "Unable to move, DEF reduced by 20%, for 1 turn."
+          }
+        ]
+      },
+      {
+        "name": "Moonlit Rally",
+        "type": "Buff / AoE",
+        "icon": "swords",
+        "description": "",
+        "image": "/static/images/heroes/masha/hab-1.png",
+        "levels": [
+          {
+            "name": "Level 1",
+            "description": "At the start of the battle, grants all allies [Inspire], and simultaneously launches an assault on all enemies, dealing 100% attack as physical damage that ignores DEF. Also applies [Entangle] to the enemy with the corresponding position (if no target, selects the enemy with the highest attack). When attacking, allies will prioritize [Entangled] targets. Targets affected by [Entangle] will have their healing effects reduced by 50% and take 15% more damage."
+          },
+          {
+            "name": "Level 2",
+            "description": "[Inspire] Increases final damage by 7%, Assault damage increases to 120% of attack, [Entangle] effect reduces healing by 60%, and increases damage taken by 20%"
+          },
+          {
+            "name": "Level 3",
+            "description": "[Inspire] Increases final damage by 9%, Assault damage increases to 140% of attack, [Entangle] effect reduces healing by 60%, and increases damage taken by 25%"
+          },
+          {
+            "name": "[Inspire]",
+            "description": "Final damage increased by 5%, cannot be dispel."
+          },
+          {
+            "name": "[Entangle]",
+            "description": "Healing received is reduced by 50%, damage taken is increased by 15%, will be prioritized as the target for single-target attacks, lasts for 4 turns, cannot be purified, upon death transfers to the ally with the lowest HP"
+          }
+        ]
+      },
+      {
+        "name": "Sharp Eyes",
+        "type": "Self / Buff",
+        "icon": "swords",
+        "description": "Normal attacks prioritize highest ATK",
+        "image": "/static/images/heroes/masha/hab-2.png",
+        "levels": [
+          {
+            "name": "Level 1",
+            "description": "Increases Attack by 25%, max HP increases by 20%, final damage increases by 10%, when receiving fatal damage, dispels all debuffs from allies, revives and heals for 50% of max HP, gains [Divine Might] and [Stern], can only trigger once per battle"
+          },
+          {
+            "name": "Level 2",
+            "description": "Increases Attack by 40%, max HP increases by 25%, final damage increases by 15%, healing upon revival increases to 65%, [Stern] effect upgraded to ignore 4 instances of damage"
+          },
+          {
+            "name": "Level 3",
+            "description": "Increases Attack by 50%, max HP increases by 30%, final damage increases by 20%, healing upon revival increases to 80%, [Stern] effect upgraded to ignore 4 instances of damage"
+          },
+          {
+            "name": "[Divine Might]",
+            "description": "Damage increases by 30%, Crit Rate increases by 20%, immune to control effects, cannot be dispelled"
+          },
+          {
+            "name": "[Stern]",
+            "description": "Ignores 2 instances of damage, lasts 1 turn."
+          }
+        ]
+      },
+      {
+        "name": "White Night Pursuit",
+        "type": "Buff / CounterAttacks",
+        "icon": "swords",
+        "description": "Normal attacks prioritize highest ATK",
+        "image": "/static/images/heroes/masha/hab-3.png",
+        "levels": [
+          {
+            "name": "Level 1",
+            "description": "Normal attacks deal an additional 10% of attack as True DMG. After performing a normal attack or pursuit, there is a 60% chance to generate one [Phantom Sword], which can trigger up to 4 times per turn. When allies perform normal attacks, guaranteed skills, pursuits, assists or counterattacks, the character will launch a [Rainbow Sword] strike on the ame target, dealing 100% of attack as physical damage, plus 25% of attack as True DMG. This effect can trigger up to 5 times per turn. Up to 2 allies per turn can be assisted. After triggering, there is a chance to cleanse 1 debuff from 1 random allied unit."
+          },
+          {
+            "name": "Level 2",
+            "description": "Normal attack bonus damage increases to 15% of Attack. [Phantom Sword] generation chance increases to 70%. [Rainbow Sword] damage increases to 105% of Attack as physical damage, plus an additional 30% of Attack as True DMG.."
+          },
+          {
+            "name": "Level 3",
+            "description": "Normal attack bonus damage increases to 20% of Attack. [Phantom Sword] generation chance increases to 80%. [Rainbow Sword] damage increases to 110% of Attack as physical damage, plus an additional 35% of Attack as True DMG.."
+          },
+          {
+            "name": "[Phantom Sword]",
+            "description": "Increases Attack by 2% and Damage Reduction by 1% per stack, up to a maximum of 15 stacks. Stacks cannot be dispelled,and half of the stacks are lost upon death. When reaching 15 stacks, all stacks are consumed to activate [Phantom Sword Cross Slash]."
+          },
+          {
+            "name": "[Phantom Sword Cross Slash]",
+            "description": "Deals 180% Attack as True DMG to all enemies, Additionally deals up to 6% of the target’s max HP as True DMG(capped at 3× the user’s Attack). Dispels 1 buff from up to 1 enemy unit, Has a 30% chance to gain 1 stack of the buff. If the target is [Burn], the damage of this skill is increased by 20% (not including additional damage)."
+          },
+          {
+            "name": "[Rainbow Sword]",
+            "description": "Attacks a single enemy unit, dealing 100% PDMG and adding 25% of her ATK as True DMG. After the attack, randomly removes 1 stack of Debuff from 1 ally."
+          },
+          {
+            "name": "[Burn]",
+            "description": "Takes damage equal to [20% of the caster's ATK] as HP every turn for 2 turns. Up to 5 stacks"
+          }
+        ]
+      },
+      {
+        "name": "Awakened",
+        "type": "1-30",
+        "icon": "swords",
+        "description": "awk",
+        "image": "/static/images/heroes/masha/preview.png",
+        "levels": [
+          {
+            "name": "Level 1",
+            "description": "Initial Rage +20."
+          },
+          {
+            "name": "Level 5",
+            "description": "[Heaven's Web Strike] Increases DMG to 447%, ignoring 30% of the target’s DEF, and deals an additional 50% of attack as True DMG. after attacking, the target will be dispel from 2 random stacks"
+          },
+          {
+            "name": "Level 10",
+            "description": "10% speed"
+          },
+          {
+            "name": "Level 15",
+            "description": "Initial Rage +30"
+          },
+          {
+            "name": "Level 20",
+            "description": "[Moonlit Rally]: Increases damage to 150% of attack, and 3 stacks of [Phantom Sword] will be generate after activation"
+          },
+          {
+            "name": "level 25",
+            "description": "[White Night Pursuit] When it is superimposed to 12 stacks, you can launch [Fantasy Sword Confrontation], and there is a 50% probability of halving the number of consumption stacks"
+          },
+          {
+            "name": "level 30",
+            "description": "At the beginning of the hero's 3rd turn, his damage increases by 25% and his crit rate increases by 15%, which lasts for 4 turns."
+          }
+        ]
+      }
+    ],
+
+    "equip": {
+      "name": "Equip",
+      "description": "Atk set",
+      "recommended": [
+        {
+          "name": "Judgment",
+          "image": "atk-head.png"
+        },
+        {
+          "name": "Glory",
+          "image": "atk-clothes.png"
+        },
+        {
+          "name": "Loyalty",
+          "image": "atk-gloves.png"
+        },
+        {
+          "name": "Punishment",
+          "image": "atk-shoes.png"
+        }
+      ]
+    },
+    "startmark": {
+      "name": "Starmark & Moon Badge",
+      "description": "",
+      "recommended": [
+        {
+          "name": "Phantom",
+          "image": "phantom.png",
+          "type": "Must Have"
+        },
+        {
+          "name": "Sharp Blade",
+          "image": "sharp-blade.png",
+          "type": "Recommend"
+        },
+        {
+          "name": "Devour",
+          "image": "devour.png"
+        },
+        {
+          "name": "dodge",
+          "image": "dodge.png"
+        },
+        {
+          "name": "Pierce",
+          "image": "pierce.png"
+        },
+        {
+          "name": "Awaken",
+          "image": "awaken.png"
+        }
+      ]
+    },
+    "artefact": {
+      "name": "Sacred Artifact",
+      "description": "",
+      "recommended": [
+        {
+          "name": "Serpent Constellation",
+          "image": "serpent-constellation.png"
+        },
+        {
+          "name": "Spirit Light Mask",
+          "image": "spirit-light-mask.png"
+        },
+        {
+          "name": "Crimson eyes",
+          "image": "crimson-eyes.png"
+        },
+        {
+          "name": "Illusion Fruit",
+          "image": "illusion-fruit.png"
+        },
+        {
+          "name": "Twisted Truth",
+          "image": "twisted-truth.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4",
+    "title": "Shadow of the Demon Dragon",
+    "name": "Kifera",
+    "link": "/heroes?heroNumber=4",
+    "role": "DPS | Debuff",
+    "launch_date": "--",
+    "faction": "Ascension",
+    "type": "Destroyer / Stealth / Mark",
+    "hero_image_url": "/static/images/heroes/kifera/full.png",
+    "hero_small_image_url": "/static/images/heroes/kifera/full.png",
+    "hero_medium_image_url": "/static/images/heroes/kifera/full.png",
+    "hero_large_image_url": "/static/images/heroes/kifera/full.png",
+    "hero_description": "Top-tier hero",
+    "rerun": "0",
+    "rating": 100,
+    "tier": "SSS",
+    "hero_id": "Mon, 16 Dec 2024 08:02:43 -0800",
+    "review": "",
+    "hero_published": "2025",
+    "content": "",
+    "contentSnippet": "",
+    "abilities": [
+      {
+        "name": "Dragon Slaying Strike",
+        "type": "--",
+        "icon": "swords",
+        "description": "",
+        "image": "/static/images/heroes/kifera/hab-0.jpg",
+        "levels": [
+          {
+            "name": "Level 1",
+            "description": "Deals 180% of ATK as PDMG to the 3 enemies with the lowest HP, with a 50% chance to inflict [Bleed] on hit. Damage increases by 20% against targets with [Shield]. If the target's HP falls below 50% after the attack, it triggers [Ruin Strike], which inflicts [Revival Denied] on the enemy with the lowest HP, then deals 298% of ATK as PDMG plus 3% of the target's Max HP as ignore-defense damage (capped at 3x ATK), while also applying 5 stacks of [Bleed]. This effect can only trigger once per round."
+          },
+          {
+            "name": "Level 2",
+            "description": "The ultimate's PDMG increases to 216%, with the [Bleed] chance rising to 70%. There's an additional 50% chance to inflict [Healing Denied], which becomes 100% if the target belongs to the Destroy or Arcane faction. The [Ruin Strike]'s PDMG also increases to 357%."
+          },
+          {
+            "name": "Level 3",
+            "description": "The ultimate's PDMG increases to 252%, and gains an additional 60% of ATK as ignore-defense damage, while the [Bleed] chance rises to 90%. The [Ruin Strike]'s PDMG is enhanced to 417%."
+          },
+          {
+            "name": "[Bleed]",
+            "description": "Takes damage equal to [20% of the caster's ATK] as HP every turn for 2 turns. Up to 5 stacks."
+          },
+          {
+            "name": "[Revival Denied]",
+            "description": "Cannot be revived for 4 turns."
+          },
+          {
+            "name": "[Healing Denied]",
+            "description": "Unable to receive healing for 2 turns."
+          }
+        ]
+      },
+      {
+        "name": "Surging Dragon Breath",
+        "type": "--",
+        "icon": "swords",
+        "description": "",
+        "image": "/static/images/heroes/kifera/hab-1.jpg",
+        "levels": [
+          {
+            "name": "Level 1",
+            "description": "Replaces normal attack with [Dragon Breath], dealing 50% of ATK as physical damage to all enemies with a 40% chance to inflict [Bleed]. When total allied HP falls below 70% during battle, removes all debuffs from self and enters [Dragon Concealment] state. This effect can only trigger once per battle."
+          },
+          {
+            "name": "Level 2",
+            "description": "[Dragon Breath]'s physical damage increases to 60% and [Bleed] chance rises to 55%. [Dragon Concealment] activation threshold changes to when total allied HP falls below 75%"
+          },
+          {
+            "name": "Level 3",
+            "description": "[Dragon Breath]'s physical damage increases to 75% and [Bleed] chance rises to 70%. [Dragon Concealment] activation threshold changes to when total allied HP falls below 80%."
+          },
+          {
+            "name": "[Bleed]",
+            "description": "Takes damage equal to [20% of the caster's ATK] as HP every turn for 2 turns. Up to 5 stacks."
+          },
+          {
+            "name": "[Dragon Breath]",
+            "description": "Dragon Breath] Immune to control, attack increased by 15%, restore 30 energy per round, when teammates are present, you cannot be selected by the enemy, lasts for 4 rounds"
+          }
+        ]
+      },
+      {
+        "name": "Dragon Blood",
+        "type": "--",
+        "icon": "swords",
+        "description": "Normal attacks prioritize highest ATK",
+        "image": "/static/images/heroes/kifera/hab-2.jpg",
+        "levels": [
+          {
+            "name": "Level 1",
+            "description": "Increases Attack by 20%, Max HP by 15%, and Critical Rate by 5%. For each stack of [Bleed] on the target, damage dealt increases by 1%."
+          },
+          {
+            "name": "Level 2",
+            "description": "Increases Attack by 35%, Max HP by 20%, and Critical Rate by 10%. For each stack of [Bleed] on the target, damage dealt increases by 2%."
+          },
+          {
+            "name": "Level 3",
+            "description": "Increases Attack by 45%, Max HP by 25%, and Critical Rate by 10%. For each stack of [Bleed] on the target, damage dealt increases by 3%."
+          }
+        ]
+      },
+      {
+        "name": "Dragon's Curse",
+        "type": "---",
+        "icon": "swords",
+        "description": "",
+        "image": "/static/images/heroes/kifera/hab-3.jpg",
+        "levels": [
+          {
+            "name": "Level 1",
+            "description": "At the start of battle, afflicts all enemies with [Evil Dragon] status. Enemies with [Evil Dragon] take 5% increased damage when attacked. This effect lasts for 3 rounds and cannot be dispelled."
+          },
+          {
+            "name": "Level 2",
+            "description": "The damage amplification effect of [Evil Dragon] increases to 10%."
+          },
+          {
+            "name": "Level 3",
+            "description": "The damage amplification effect of [Evil Dragon] increases to 15%."
+          }
+        ]
+      },
+      {
+        "name": "Awakened",
+        "type": "1-30",
+        "icon": "swords",
+        "description": "awk",
+        "image": "/static/images/heroes/kifera/preview.png",
+        "levels": [
+          {
+            "name": "Level 1",
+            "description": "Initial Rage +20."
+          },
+          {
+            "name": "Level 5",
+            "description": "[Dragon Slaying Strike] The physical damage of the ultimate skill increases to 270%, and the chance to inflict Bleed increases to 100%; the physical damage of 【Destructive Strike】 increases to 447%, and it will immediately trigger the 【Bleed】 effect on the target upon hitting."
+          },
+          {
+            "name": "Level 10",
+            "description": "10% speed"
+          },
+          {
+            "name": "Level 15",
+            "description": "Initial Rage +30"
+          },
+          {
+            "name": "Level 20",
+            "description": "[Surging Dragon Breath]: The physical damage of 【Dragon Breath】 increases to 90%; the duration of 【Dragon Concealment】 is extended to 6 turns, and additionally increases damage by 10% and damage reduction by 10%"
+          },
+          {
+            "name": "level 25",
+            "description": "[Dragon's Curse] At the beginning of the battle, apply 2 stacks of 【Bleed】 to all enemies."
+          },
+          {
+            "name": "level 30",
+            "description": "At the beginning of the hero’s 3rd turn, increases own damage by 25% and crit rate by 15%, lasting for 4 turns."
+          }
+        ]
+      }
+    ],
+
+    "equip": {
+      "name": "Equip",
+      "description": "Atk set",
+      "recommended": [
+        {
+          "name": "Judgment",
+          "image": "atk-head.png"
+        },
+        {
+          "name": "Glory",
+          "image": "atk-clothes.png"
+        },
+        {
+          "name": "Loyalty",
+          "image": "atk-gloves.png"
+        },
+        {
+          "name": "Punishment",
+          "image": "atk-shoes.png"
+        }
+      ]
+    },
+    "startmark": {
+      "name": "Starmark & Moon Badge",
+      "description": "",
+      "recommended": [
+        {
+          "name": "Phantom",
+          "image": "phantom.png",
+          "type": "Must Have"
+        },
+        {
+          "name": "Sharp Blade",
+          "image": "sharp-blade.png",
+          "type": "Recommend"
+        },
+        {
+          "name": "Devour",
+          "image": "devour.png"
+        },
+        {
+          "name": "dodge",
+          "image": "dodge.png"
+        },
+        {
+          "name": "Pierce",
+          "image": "pierce.png"
+        },
+        {
+          "name": "Awaken",
+          "image": "awaken.png"
+        }
+      ]
+    },
+    "artefact": {
+      "name": "Sacred Artifact",
+      "description": "",
+      "recommended": [
+        {
+          "name": "Serpent Constellation",
+          "image": "serpent-constellation.png"
+        },
+        {
+          "name": "Spirit Light Mask",
+          "image": "spirit-light-mask.png"
+        },
+        {
+          "name": "Crimson eyes",
+          "image": "crimson-eyes.png"
+        },
+        {
+          "name": "Illusion Fruit",
+          "image": "illusion-fruit.png"
+        },
+        {
+          "name": "Twisted Truth",
+          "image": "twisted-truth.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "5",
+    "title": "Phantom Flame",
+    "name": "Sakuya",
+    "link": "/heroes?heroNumber=5",
+    "role": "DPS | Debuff | Burst",
+    "launch_date": "--",
+    "faction": "Ascension",
+    "type": "Magic / Debuff / Burst",
+    "hero_image_url": "/static/images/heroes/sakuya/full.png",
+    "hero_small_image_url": "/static/images/heroes/sakuya/full.png",
+    "hero_medium_image_url": "/static/images/heroes/sakuya/full.png",
+    "hero_large_image_url": "/static/images/heroes/sakuya/full.png",
+    "hero_description": "Top-tier hero",
+    "rerun": "0",
+    "rating": 100,
+    "tier": "SS",
+    "hero_id": "Mon, 16 Dec 2024 08:02:43 -0800",
+    "review": "",
+    "hero_published": "2025",
+    "content": "",
+    "contentSnippet": "",
+    "abilities": [
+      {
+        "name": "Phantom Flame: Wheel Demon",
+        "type": "--",
+        "icon": "swords",
+        "description": "",
+        "image": "/static/images/heroes/sakuya/hab-0.jpg",
+        "levels": [
+          {
+            "name": "Level 1",
+            "description": "Deals magic damage equal to 100% of Attack to all enemies and has a 40% chance to apply [Ignis of Ignorance] for 2 turns. This status cannot be cleansed. While active, whenever the target is directly attacked, it gains 1 stack of a random abnormal status, and damage from these abnormal statuses can critically hit."
+          },
+          {
+            "name": "Level 2",
+            "description": "Ultimate skill damage increases to 120%, and the chance to apply [Ignis of Ignorance] increases to 60%."
+          },
+          {
+            "name": "Level 3",
+            "description": "Ultimate skill damage increases to 140%, and the chance to apply Ignis of Ignorance increases to 80%. While Ignis of Ignorance is active, when the target gains an abnormal status, there's a 50% chance to add an extra stack."
+          },
+          {
+            "name": "[Ignis of Ignorance]",
+            "description": "While active, the target will gain 1 stack of a random abnormal status when directly attacked. The damage caused by these abnormal statuses can critically hit. Duration: 2 turns."
+          },
+          {
+            "name": "[Abnormal statuses]",
+            "description": "Burn, True flame, Poison, Bleed, Deadly Poison."
+          }
+        ]
+      },
+      {
+        "name": "Phantom Flame: Unseen Fire",
+        "type": "--",
+        "icon": "swords",
+        "description": "",
+        "image": "/static/images/heroes/sakuya/hab-1.jpg",
+        "levels": [
+          {
+            "name": "Level 1",
+            "description": "Normal attacks become AoE magic attacks dealing 40% ATK, with a 30% chance to apply 1 stack of a [random abnormal status]. At the start of battle, enters [Mist Concealment state] increases Speed by 20%, when teammates are present, you cannot be selected by the enemy for 2 rounds and cannot be cleared. (If only stealth units remain, all stealth effects are nullified.)"
+          },
+          {
+            "name": "Level 2",
+            "description": "Damage increases to 50%, and the chance to apply an abnormal status increases to 40%."
+          },
+          {
+            "name": "Level 3",
+            "description": "Damage increases to 60%, and the chance to apply an abnormal status increases to 50%. After a normal attack, there's a 30% chance to perform an additional normal attack (once per turn)."
+          }
+        ]
+      },
+      {
+        "name": "Phantom Flame: Inner Heat Mirage",
+        "type": "--",
+        "icon": "swords",
+        "description": "Normal attacks prioritize highest ATK",
+        "image": "/static/images/heroes/sakuya/hab-2.jpg",
+        "levels": [
+          {
+            "name": "Level 1",
+            "description": "Increases Attack by 20%, Max HP by 15%, and damage bonus by 10%. At the start of own turn, casts Yatagarasu Fire: deals 200% Attack as magic damage to all enemies and applies Explosive Flame Curse (max once per turn)."
+          },
+          {
+            "name": "Level 2",
+            "description": "Attack increases to 35%, Max HP to 20%, and damage bonus to 15%. Yatagarasu Fire damage increases to 240%, and Explosive Flame Curse triggers when the target's HP falls below 15%, restoring 15% of Sakuya's Max HP upon kill."
+          },
+          {
+            "name": "Level 3",
+            "description": "Attack increases to 45%, Max HP to 25%, and damage bonus to 20%. Yatagarasu Fire damage increases to 280%, and Explosive Flame Curse triggers when the target's HP falls below 20%, restoring 20% of Sakuya's Max HP upon kill."
+          },
+          {
+            "name": "[Explosive Flame Curse]",
+            "description": "While active, if the target's HP falls below 10% due to abnormal status damage, triggers a finishing blow dealing up to 5 times Sakuya's Attack. If the target is killed, restores 10% of Sakuya's Max HP. Cannot be cleansed."
+          }
+        ]
+      },
+      {
+        "name": "Phantom Flame: Yatagarasu",
+        "type": "---",
+        "icon": "swords",
+        "description": "",
+        "image": "/static/images/heroes/sakuya/hab-3.jpg",
+        "levels": [
+          {
+            "name": "Level 1",
+            "description": "Attacks have a 30% chance to apply [Sun Flame] reduces Hit Rate and Critical Resistance by 15%, and all abnormal status damage taken is increased by 25% of Sakuya's Attack. Lasts 2 turns. Attacking a target with Sun Flame has a 50% chance to immediately trigger 1 stack of their abnormal status damage."
+          },
+          {
+            "name": "Level 2",
+            "description": "Chance to apply Sun Flame increases to 45%, and its effects increase to 30% reduction in Hit Rate and Critical Resistance."
+          },
+          {
+            "name": "Level 3",
+            "description": "Chance to apply Sun Flame increases to 60%, and all abnormal status damage taken is increased by 50% of Sakuya's Attack"
+          },
+          {
+            "name": "[Sun Flame]",
+            "description": "Hit rate is reduced by 15%, resistance rate is reduced by 15%, and all [Abnormal Status] damage received will be additionally increased by 25% of Sakuya's attack power, which lasts for 2 rounds"
+          }
+        ]
+      },
+      {
+        "name": "Awakened",
+        "type": "1-30",
+        "icon": "swords",
+        "description": "awk",
+        "image": "/static/images/heroes/sakuya/preview.png",
+        "levels": [
+          {
+            "name": "Level 1",
+            "description": "Initial Rage +20."
+          },
+          {
+            "name": "Level 5",
+            "description": "[Phantom Flame: Wheel Demon] Awakening Effect: Ultimate skill damage increases to 151% Attack, and the chance to apply [Ignis of Ignorance] increases to 100%. While [Ignis of Ignorance] is active, when the target gains an [Abnormal Status], there's a 100% chance to add an extra stack."
+          },
+          {
+            "name": "Level 10",
+            "description": "10% ATK"
+          },
+          {
+            "name": "Level 15",
+            "description": "Initial Rage +30"
+          },
+          {
+            "name": "Level 20",
+            "description": "[Phantom Flame: Unseen Fire] Awakening Effect: Damage increases to 80%, and the chance to apply an [Abnormal Status] increases to 60%. After a normal attack, there's a 60% chance to perform an additional normal attack (once per turn)"
+          },
+          {
+            "name": "level 25",
+            "description": "[Phantom Flame: Yatagarasu] Chance to apply Sun Flame increases to 80%. Attacking a target with Sun Flame has a 100% chance to immediately trigger 1 stack of their abnormal status damage. All abnormal status damage taken is increased by 75"
+          },
+          {
+            "name": "level 30",
+            "description": "At the beginning of the hero’s 3rd turn, increases own damage by 25% and crit rate by 15%, lasting for 4 turns."
+          }
+        ]
+      }
+    ],
+
+    "equip": {
+      "name": "Equip",
+      "description": "Atk set",
+      "recommended": [
+        {
+          "name": "Judgment",
+          "image": "atk-head.png"
+        },
+        {
+          "name": "Glory",
+          "image": "atk-clothes.png"
+        },
+        {
+          "name": "Loyalty",
+          "image": "atk-gloves.png"
+        },
+        {
+          "name": "Punishment",
+          "image": "atk-shoes.png"
+        }
+      ]
+    },
+    "startmark": {
+      "name": "Starmark & Moon Badge",
+      "description": "",
+      "recommended": [
+        {
+          "name": "Clone",
+          "image": "clone.png",
+          "type": "Must Have"
+        },
+        {
+          "name": "Magic",
+          "image": "magic.png",
+          "type": "Recommend"
+        },
+        {
+          "name": "Devour",
+          "image": "devour.png"
+        },
+        {
+          "name": "dodge",
+          "image": "dodge.png"
+        },
+        {
+          "name": "Pierce",
+          "image": "pierce.png"
+        },
+        {
+          "name": "Awaken",
+          "image": "awaken.png"
+        }
+      ]
+    },
+    "artefact": {
+      "name": "Sacred Artifact",
+      "description": "",
+      "recommended": [
+        {
+          "name": "Serpent Constellation",
+          "image": "serpent-constellation.png"
+        },
+        {
+          "name": "Spirit Light Mask",
+          "image": "spirit-light-mask.png"
+        },
+        {
+          "name": "Crimson eyes",
+          "image": "crimson-eyes.png"
+        },
+        {
+          "name": "Illusion Fruit",
+          "image": "illusion-fruit.png"
+        },
+        {
+          "name": "Twisted Truth",
+          "image": "twisted-truth.png"
+        }
+      ]
+    }
   }
 ]
