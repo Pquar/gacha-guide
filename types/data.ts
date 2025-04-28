@@ -41,6 +41,7 @@ export type Heroes = {
   content: string
   hero_published: string
   contentSnippet: string
+  iframe_url?: string
   abilities: {
     name: string
     type: string

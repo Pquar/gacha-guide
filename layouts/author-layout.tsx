@@ -34,6 +34,9 @@ export function AuthorLayout({ children }: Props) {
             <h3>Add contents</h3>
             <ul>
               <li>
+                <code>2025-04-27</code> Reals Of Pixel: <strong>All hero's from Tw, vehicle and mech Snippets</strong>
+              </li>
+              <li>
                 <code>2025-04-21</code> built of <strong>2025-04-21 - Tomoe</strong>
               </li>
             </ul>

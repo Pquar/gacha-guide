@@ -13,7 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   let snippetRoutes = allSnippets
     .filter((s) => !s.draft)
     .map(({ path, lastmod, date }) => ({
-      url: `${siteUrl}/snippets/${path}`,
+      url: `${siteUrl}/${path}`,
       lastModified: lastmod || date,
     }))
 
