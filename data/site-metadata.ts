@@ -28,7 +28,7 @@ export const SITE_METADATA = {
   email: 'pquar@hotmail.com',
   github: 'https://github.com/pquar',
   x: 'https://x.com/fkquar',
-  youtube: 'https://www.youtube.com/pquar',
+  youtube: 'https://www.youtube.com/@pquar',
   locale: 'pt-BR',
   stickyNav: true,
   comments: {

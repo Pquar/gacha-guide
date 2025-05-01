@@ -33,6 +33,9 @@ export function AuthorLayout({ children }: Props) {
           <div>
             <h3>Add contents</h3>
             <ul>
+            <li>
+                <code>2025-05-01</code> Reals Of Pixel: <strong>Adicionado videos e resumo de heróis em Portuguese</strong>
+              </li>
               <li>
                 <code>2025-04-27</code> Reals Of Pixel: <strong>All hero's from Tw, vehicle and mech Snippets</strong>
               </li>

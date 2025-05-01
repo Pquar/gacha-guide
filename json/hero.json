@@ -2105,7 +2105,7 @@
       },
       {
         "name": "Deep Winter Hunt",
-        "type": "",
+        "type": "Counter | Buff | Passive",
         "icon": "swords",
         "description": "",
         "image": "/static/images/heroes/christie/hab-3.png",
@@ -2124,7 +2124,7 @@
           },
           {
             "name": "[Invincible]",
-            "description": "Immune to all damage during the effect duration."
+            "description": "Immune to all incoming damage during 1 turn. Cannot be removed."
           },
           {
             "name": "[Hunt]",
