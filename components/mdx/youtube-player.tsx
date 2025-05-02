@@ -77,7 +77,7 @@ export function YouTubeModalPlayer({
     <>
       <button
         onClick={handleOpen}
-        className="px-3 py-1.5 text-sm bg-blue-600 text-white rounded hover:bg-blue-700"
+        className="mx-2 my-2 px-3 py-1.5 text-sm bg-blue-600 text-white rounded hover:bg-blue-700"
       >
         {title}
       </button>
