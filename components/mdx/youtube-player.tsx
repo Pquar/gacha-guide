@@ -94,7 +94,6 @@ export function YouTubeModalPlayer({
                   className="absolute top-0 left-0 w-full h-full"
                   src={buildSrc()}
                   title={title}
-                  frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 />
