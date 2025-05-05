@@ -6,7 +6,7 @@ import { FOOTER_NAV_LINKS, FOOTER_MORE_LINKS } from '~/data/navigation'
 
 export function FooterNav() {
   return (
-    <div className="flex flex-col gap-4 px-1 md:flex-row md:justify-end md:gap-24 md:px-0 md:text-right">
+    <div className="flex flex-col gap-4 px-1 md:flex-row md:justify-end md:gap-24 md:px-0 md:text-right print:hidden">
       <div className="space-y-1 md:space-y-4">
         <div className="flex h-11 items-center font-semibold md:justify-end">
           <span>Sitemap</span>

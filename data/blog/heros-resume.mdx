@@ -15,7 +15,7 @@ authors: ['default']
 <img src="/static/images/heroes/zenith/full.png" alt="Zenith" className="max-h-32 h-auto mb-4" />
 <div className="flex">
 <img src="/static/images/heroes/zenith/hab-0.jpg" alt="Zenith" className="max-h-12 h-auto mb-4" />
-- **Habilidade 1 (Brilhante e Flamejante):** Dano físico no inimigo com maior ATK, ignora 25% da DEF. Tem 90% de chance de aplicar [Queimadura], [-DEF] e [Dano Red]. Após o ataque, Zenith persegue todos os inimigos com Dano Verdadeiro equivalente a 30% do seu ATK.
+- **Habilidade 1 (Brilhante e Flamejante):** Causa Dano físico no inimigo com maior ATK, ignora 25% da DEF. Tem chance de aplicar [Queimadura], [-DEF] e [Dano Red]. Após o ataque, Zenith causa Dano Verdadeiro adicional a todos os inimigos equivalente a 30% do seu ATK.
 </div>
 [Queimadura] Sofre 20% do ATK do lançador como dano por turno (máx. 5 stacks).
 
@@ -23,15 +23,14 @@ authors: ['default']
 
 [Dano Red] Incapaz de agir, ganhar raiva ou buffs. Dura 1 turno.
 
-[Inimigo] Reduz 20% da precisão, vira alvo prioritário do Zenith, recebe 30% de dano adicional por 2 turnos. Não pode ser dissipado.
-
+[Inimigo] Reduz 20% da precisão, torna-se alvo prioritário de Zenith, recebe 30% de dano adicional por 2 turnos. Não pode ser dissipado.
 <YouTubeModalPlayer videoId="zERinxE09cQ" title="Zenith - Brilhante e Flamejante" start={74} end={85} />
 
 <div className="flex">
 <img src="/static/images/heroes/zenith/hab-1.jpg" alt="Zenith" className="max-h-12 h-auto mb-4" />
-- **Habilidade 2 (Enterrado no Fogo do Abismo):** No começo da batalha da Dano em área com base no HP máximo do inimigo, ignora DEF. Aplica [Escudo de Dano] e [Campo Shura] a todos.
+- **Habilidade 2 (Enterrado no Fogo do Abismo):** No começo da batalha causa Dano em área com base no HP máximo do inimigo, ignora DEF. Concede [ESCUDO de Dano] a todos os aliados e aplica [Campo Shura] a todos os inimigos.
 </div>
-[Escudo de Dano] Equivale a 60% do dano causado, dura 2 turnos.
+[ESCUDO de Dano] Valor do ESCUDO equivale a 60% do dano causado pelo Lançador, dura 2 turnos.
 
 [Campo Shura] Reduz SPD dos inimigos em 5%, 60% de chance de aplicar 1 stack de Queimadura a cada rodada. Dura até Zenith morrer.
 
@@ -45,7 +44,7 @@ authors: ['default']
 
 <div className="flex">
 <img src="/static/images/heroes/zenith/hab-3.jpg" alt="Zenith" className="max-h-12 h-auto mb-4" />
-- **Habilidade 4 (Nove Transformações de Pojun):** Transforma ao perder HP(lv.1 50%, aw 75%). Cura 35%, remove debuffs, ganha +30% ATK, +20% DMG e imunidade a controle. Todos aliados de facção [Dark] recebem [+5% dano final, -5% dano recebido] por 5 turnos.
+- **Habilidade 4 (Nove Transformações de Pojun):** Transforma ao perder HP (lv.1 50%, aw 75%). Cura 35% do seu HP, remove debuffs de si mesmo, ganha +30% ATK, +20% Dano e imunidade a controle. Todos os aliados de facção [Dark] recebem [+5% dano final, -5% dano recebido] por 5 turnos.
 </div>
 <YouTubeModalPlayer videoId="zERinxE09cQ" title="Zenith - Nove Transformações de Pojun" start={30} end={34} />
 
@@ -56,17 +55,17 @@ authors: ['default']
 <img src="/static/images/heroes/masha/full.png" alt="Masha" className="max-h-32 h-auto mb-4" />
 <div className="flex">
 <img src="/static/images/heroes/masha/hab-0.png" alt="Masha" className="max-h-12 h-auto mb-4" />
-- **Habilidade 1 (Golpe Celestial):** Causa Dano em alvo com menor HP, ignora DEF, aplica [Aprisionamento], absorve ESCUDO e causa Dano Verdadeiro adicional.
+- **Habilidade 1 (Golpe Celestial):** Causa Dano em alvo com menor HP, ignora DEF. Chance de aplicar [Aprisionamento], absorve ESCUDO e causa Dano Verdadeiro adicional.
 </div>
-[Aprisionamento] Inimigo imobilizado e DEF -20% por 1 turno.
+[Aprisionamento] Inimigo fica imobilizado e DEF -20% por 1 turno.
 
 <YouTubeModalPlayer videoId="zERinxE09cQ" title="Masha - Golpe Celestial" start={99} end={104} />
 
 <div className="flex">
 <img src="/static/images/heroes/masha/hab-1.png" alt="Masha" className="max-h-12 h-auto mb-4" />
-- **Habilidade 2 (Rally ao Luar):** Causa Dano em área ignora DEF. Aplica [Estocada] e ganha [Inspirar].
+- **Habilidade 2 (Rally ao Luar):** Causa Dano em área que ignora ESCUDO. Aplica [Estocada] no alvo e ganha [Inspirar].
 </div>
-[Estocada] Reduz cura em 60%, alvo recebe 25% de dano extra e é priorizado por ataques básicos.
+[Estocada] Reduz a cura recebida em 60%, alvo recebe 25% de dano extra e é selecionado por ataques básicos por 4 turnos, se o alvo morrer passa para o proximo alvo com menor HP.
 
 [Inspirar] +5% dano final, não pode ser dissipado.
 
@@ -74,7 +73,7 @@ authors: ['default']
 
 <div className="flex">
 <img src="/static/images/heroes/masha/hab-2.png" alt="Masha" className="max-h-12 h-auto mb-4" />
-- **Habilidade 3 (Olhos Afiados):** Bônus de ATK/HP/Dano. Se morrer, revive com cura, limpa debuffs aliados e ganha [Poder Divino] e [Determinação].
+- **Habilidade 3 (Olhos Afiados):** Bônus de ATK/HP/Dano. Se morrer, revive com cura 50% do HP máximo, limpa todos os Debuffs aliados e ganha [Poder Divino] e [Determinação].
 </div>
 [Poder Divino] +30% dano e +20% CRIT, imune a controle.
 
@@ -82,11 +81,11 @@ authors: ['default']
 
 <div className="flex">
 <img src="/static/images/heroes/masha/hab-3.png" alt="Masha" className="max-h-12 h-auto mb-4" />
-- **Habilidade 4 (Perseguição Noturna):** Ataques normais causam Dano Verdadeiro. Pode perseguir ataques aliados, aplicando [Espada Fantasma] e limpando 1 debuff aliado.
+- **Habilidade 4 (Perseguição Noturna):** Ataques normais causam 10% de ATK como Dano Verdadeiro. Pode perseguir ataques aliados,chance de ganhando [Espada Fantasma] e limpando 1 debuff de unidade aliada.
 </div>
-[Espada Fantasma] Aumenta o ATK em 2% E reduz o dano recebido em 1% por 1 turno (máx. 15 stacks) com 15 stack ativa [Espada Fantasma Cross Slash].
+[Espada Fantasma] Aumenta o ATK em 2% E reduz o dano recebido em 1% por 1 turno (máx. 15 stacks). Ao atingir 15 stacks, ativa [Espada Fantasma Cross Slash].
 
-[Espada Fantasma Cross Slash] Causa dano em área em 180% ATK como True DMG, adicional ao HP máximo do alvo. remove 1 buff do alvo, tem 30% de chance de receber 1 buff, se o alvo estiver com Queimadura, causa 20% de dano adicional.
+[Espada Fantasma Cross Slash] Causa dano verdadeiro em área equivalente a 180% do ATK, dano adicional baseado no HP máximo do alvo. Remove 1 buff do alvo. Tem 30% de chance de aplicar Queimadura. Se o alvo estiver com Queimadura, causa 20% de dano adicional.
 <YouTubeModalPlayer videoId="zERinxE09cQ" title="Masha - Perseguição Noturna" start={44} end={47} />
 <YouTubeModalPlayer videoId="zERinxE09cQ" title="Masha - Espada Fantasma Cross Slash" start={274} end={285} />
 
@@ -97,17 +96,17 @@ authors: ['default']
 <img src="/static/images/heroes/kifera/full.png" alt="Kifera" className="max-h-32 h-auto mb-4" />
 <div className="flex">
 <img src="/static/images/heroes/kifera/hab-0.jpg" alt="Kifera" className="max-h-12 h-auto mb-4" />
-- **Habilidade 1 (Golpe Matador de Dragões):** Causa Dano em 3 inimigos com menos HP. Aplica [Sangramento], [Cura Negada] e [Strike] se estiverem com menos de 50% de HP.
+- **Habilidade 1 (Golpe Matador de Dragões):** Causa Dano em 3 inimigos com menos HP. Chance de aplicar [Sangramento], [Cura Negada], Aplica [Strike] se o alvo estiver com menos de 50% de HP.
 </div>
-[Sangramento] 20% do ATK por turno, dura 2 turnos, até 5 stacks.
+[Sangramento] Sofre 20% do ATK do lançador como dano por turno (máx. 5 stacks).
 
-[Strike] Revive Negado, Causa Dano ignorando DEF baseado em PV, aplica 5 stacks de Sangramento.
+[Strike] Revive Negado, Causa Dano ignorando DEF baseado no PV do alvo, aplica 5 stacks de Sangramento, 1 vez por turno.
 
 <YouTubeModalPlayer videoId="zERinxE09cQ" title="Kifera - Golpe Matador de Dragões" start={104} end={118} />
 
 <div className="flex">
 <img src="/static/images/heroes/kifera/hab-1.jpg" alt="Kifera" className="max-h-12 h-auto mb-4" />
-- **Habilidade 2 (Sopro do Dragão):** Ataque normal vira em área, aplica [Sangramento]. Entra em [Invisível] se aliados estiverem com HP total abaixo de 70%.
+- **Habilidade 2 (Sopro do Dragão):** Ataque normal viram em área. Chance de aplicar [Sangramento]. Entra em [Invisível] se aliados estiverem com HP total abaixo de 70%(soma).
 </div>
 [Invisível] Não pode ser alvo por 2 turnos.
 
@@ -122,9 +121,9 @@ authors: ['default']
 
 <div className="flex">
 <img src="/static/images/heroes/kifera/hab-3.jpg" alt="Kifera" className="max-h-12 h-auto mb-4" />
-- **Habilidade 4 (Maldição do Dragão):** Aplica [Dragão Maligno] a todos, aumentando o dano recebido.
+- **Habilidade 4 (Maldição do Dragão):** No início da batalha Aplica [Dragão Maligno] a todos, aumentando o dano recebido.
 </div>
-[Dragão Maligno] +15% de dano recebido por 3 turnos.
+[Dragão Maligno] +5% de dano recebido por 3 turnos. (ate 15% no Awakening aplica 2 stacks de Sangramento).
 
 <YouTubeModalPlayer videoId="zERinxE09cQ" title="Kifera - Maldição do Dragão" start={2} end={5} />
 
@@ -135,16 +134,16 @@ authors: ['default']
 <img src="/static/images/heroes/sakuya/full.png" alt="Sakuya" className="max-h-32 h-auto mb-4" />
 <div className="flex">
 <img src="/static/images/heroes/sakuya/hab-0.jpg" alt="Sakuya" className="max-h-12 h-auto mb-4" />
-- **Habilidade 1 (Demônio da Roda):** Dano mágico em área, aplica [Ignis] e aumenta dano causado por [status negativos].
+- **Habilidade 1 (Demônio da Roda):** Causa Dano mágico em área, Chance de aplicar [Ignis].
 </div>
-[Ignis] Alvo ao ser atacado ganha 1 [status negativo] pode ser Critico, por 2 turnos.
-[status negativo] [Queimadura, Sangramento, Veneno...]
+[Ignis] Alvo ao ser atacado ganha 1 [Efeitos de Estado] que agora podem ser Criticos e aumenta o dano causado por [Efeitos de Estados] tem 50% de chance de aumentar em 1 o numero de stacks, por 2 turnos.
+[Efeitos de Estado] [Queimadura, Chama Sagrada, Sangramento, Veneno Feroz]
 
 <YouTubeModalPlayer videoId="zERinxE09cQ" title="Sakuya - Demônio da Roda" start={50} end={55} />
 
 <div className="flex">
 <img src="/static/images/heroes/sakuya/hab-1.jpg" alt="Sakuya" className="max-h-12 h-auto mb-4" />
-- **Habilidade 2 (Fogo Invisível):** Ataques normais viram em área/mágica. Início da batalha ganha [Invisível] e +20% SPD.
+- **Habilidade 2 (Fogo Invisível):** Ataques normais se tornam em área e causam dano mágico. No início da batalha, ganha [Invisível] e +20% de SPD.
 </div>
 
 <YouTubeModalPlayer videoId="zERinxE09cQ" title="Sakuya - stealth(INVISÍVEL)" start={2} end={5} />
@@ -152,9 +151,9 @@ authors: ['default']
 
 <div className="flex">
 <img src="/static/images/heroes/sakuya/hab-2.jpg" alt="Sakuya" className="max-h-12 h-auto mb-4" />
-- **Habilidade 3 (Miragem de Calor):** Aumenta ATK/HP/DMG. Início do turno causa dano mágico e aplica [Maldição do Fogo].
+- **Habilidade 3 (Miragem de Calor):** Aumenta ATK/HP/Dano. No início do turno, causa dano mágico e aplica [Maldição do Fogo].
 </div>
-[Maldição do Fogo] Quando alvo estiver com menos de 10% da vida e sofre dano do [status negativo] sera ativado dando 5xATK Sakuya; se o alvo morrer recupera 10% da vida de Sakuya
+[Maldição do Fogo] Quando o alvo estiver com menos de 10% da vida e sofrer dano de um [Efeitos de Estado], este efeito será ativado, causando dano equivalente a 5 vezes o ATK de Sakuya. Se o alvo morrer, Sakuya recupera 10% da própria vida. 
 
 <YouTubeModalPlayer videoId="zERinxE09cQ" title="Sakuya - Miragem de Calor Interior" start={46} end={51} />
 <YouTubeModalPlayer videoId="zERinxE09cQ" title="Sakuya - Maldição do Fogo" start={184} end={191} />
@@ -162,9 +161,9 @@ authors: ['default']
 
 <div className="flex">
 <img src="/static/images/heroes/sakuya/hab-3.jpg" alt="Sakuya" className="max-h-12 h-auto mb-4" />
-- **Habilidade 4 (Yatagarasu):** Ataques têm chance de aplicar [Chamado do Sol] Alvo comessa marca pode gerar [status negativo].
+- **Habilidade 4 (Yatagarasu):** Ataques têm chance de aplicar [Chamado do Sol] Ataques em alvos com esta marca têm maior chance de aplicar [Efeitos de Estado].
 </div>
-[Chamado do Sol] Reduz precisão e resistência a CRIT. Amplifica dano por status negativo.
+[Chamado do Sol] Reduz a precisão e a resistência a CRÍTICO. Amplifica o dano recebido de [Efeitos de Estado].
 
 - **Awakening 10:** +10% ATK.
 
@@ -173,40 +172,40 @@ authors: ['default']
 <img src="/static/images/heroes/christie/full.png" alt="Christie" className="max-h-32 h-auto mb-4" />
 <div className="flex">
 <img src="/static/images/heroes/christie/hab-0.png" alt="Christie" className="max-h-12 h-auto mb-4" />
-- **Habilidade 1 (Execução sem Fim):** Dano em alvo com maior ATK, ignora ESCUDO e DEF. Aplica Dano Verdadeiro em área e reduz Fúria.
+- **Habilidade 1 (Execução sem Fim):** Causa Dano em alvo com maior ATK, ignora ESCUDO e DEF. Causa Dano Verdadeiro adicional em área e reduz a Fúria do alvo.
 </div>
 
 <YouTubeModalPlayer videoId="zERinxE09cQ" title="Christie - Execução sem fim" start={133} end={139} />
 
 <div className="flex">
 <img src="/static/images/heroes/christie/hab-1.png" alt="Christie" className="max-h-12 h-auto mb-4" />
-- **Habilidade 2 (Carruagem de Guerra Feroz):** Início da luta aplica dano em linha. Ao atacar, chance de aplicar [Marcado]; ao receber dano, ganha [Fúria de Guerra].
+- **Habilidade 2 (Carruagem de Guerra Feroz):** No início da batalha ativa [Guerra Feroz]. Ao atacar tem chance de aplicar [PRESA]; ao receber dano direto ganha [Fúria de Guerra].
 </div>
-[Marcado] -5% ATK/DEF, +5% dano recebido, -10% cura recebida, dura 2 turnos (até 10 stacks).
+[PRESA] -5% ATK/DEF, +5% dano recebido, -10% cura recebida, dura 2 turnos (até 10 stacks).
 
-[Fúria de Guerra] Com 5 stacks ativa Guerra Feroz.
+[Fúria de Guerra] Ao atingir 5 stacks, todas sao consumidas ativando Guerra Feroz.
 
-[Guerra Feroz] Dano em fileira com o inimigo de maior ATK com alvo.
+[Guerra Feroz] Causa dano em fileira tendo como alvo o inimigo com maior ATK.
 
 <YouTubeModalPlayer videoId="zERinxE09cQ" title="Christie - Guerra Feroz" start={225} end={229} />
 
 <div className="flex">
 <img src="/static/images/heroes/christie/hab-2.png" alt="Christie" className="max-h-12 h-auto mb-4" />
-- **Habilidade 3 (Trombeta da Tempestade):** Sacrifica 50% do HP para aumentar ATK. Marca inimigo com [ÓDIO].
+- **Habilidade 3 (Trombeta da Tempestade):** Sacrifica 50% do próprio HP para aumentar o ATK. Marca o inimigo com maior ATK com[ÓDIO].
 </div>
-[ÓDIO] Se morrer, transfere para outro inimigo com maior ATK.
+[ÓDIO] Se o alvo morrer, transfere o efeito para outro inimigo com maior ATK.
 
 <YouTubeModalPlayer videoId="zERinxE09cQ" title="Christie - Sacrifica HP" start={3} end={7} />
 
 <div className="flex">
 <img src="/static/images/heroes/christie/hab-3.png" alt="Christie" className="max-h-12 h-auto mb-4" />
-- **Habilidade 4 (Caçada Invernosa):** Quando recebe dano, ataca o alvo com [ÓDIO] ignora DEF/Escudo. Ao receber dano letal, restaura HP, ganha [Invencível], entra em [Caçar] e aplica [Nevoa].
+- **Habilidade 4 (Caçada Invernosa):** Quando recebe dano, ataca o alvo marcado com [ÓDIO], ignorando DEF/Escudo. Ao receber dano letal, restaura 50% do HP máximo ganha [Invencível], entra em [Caçar] e concede [Nevoa] aos aliados .
 </div>
-[Invencível] Imune a dano ate o final do Turno.
+[Invencível] Imune a dano até o final do turno.
 
-[Caçar] +ATK/CRIT, imune controle, com 13 estrelas aplica nevoa.
+[Caçar] +ATK/CRÍTICO, imune a controle.
 
-[Nevoa] Aliados não podem ser alvo ate o final do Turno.
+[Nevoa] Aliados não podem ser alvo até o final do turno, Efeito somente com 13 estrelas.
 
 <YouTubeModalPlayer videoId="zERinxE09cQ" title="Christie - ÓDIO" start={14} end={17} />
 
@@ -216,25 +215,25 @@ authors: ['default']
 
 
 #### **Beta**
-Muito raro ver alguém usando porem ainda e viável, é um TANK com habilidades de suporte podemos dizer que OFF-META.
+Muito raro ver alguém usando, porém ainda é viável. É um TANK com habilidades de suporte; podemos dizer que é OFF-META.
 
 <img src="/static/images/heroes/beta/full.png" alt="Beta" className="max-h-32 h-auto mb-4" />
 <div className="flex">
 <img src="/static/images/heroes/beta/hab-0.png" alt="Beta" className="max-h-12  h-auto mb-4" />
-- **Habilidade 1 (Counter Burst):** Dano em área que aplica [Counter] (causa dano quando o inimigo age).
+- **Habilidade 1 (Counter Burst):** Causa Dano em área que aplica [Counter].
 </div>
 
 <div className="flex">
 <img src="/static/images/heroes/beta/hab-1.png" alt="Beta" className="max-h-12  h-auto mb-4" />
-- **Habilidade 2 (Precise Prediction):** Ganha [Prediction] ao ser atacado, que aumenta ATK e dano de contra-ataque.
+- **Habilidade 2 (Precise Prediction):** Ganha [Previsão] ao ser atacado, que aumenta o ATK e o dano de contra-ataque.
 </div>
 <div className="flex">
 <img src="/static/images/heroes/beta/hab-2.png" alt="Beta" className="max-h-12  h-auto mb-4" />
-- **Habilidade 3 (Aggressive Positioning):** Bônus de ATK, HP e resistência cumulativa por acertos sofridos.
+- **Habilidade 3 (Aggressive Positioning):** Bônus de ATK/HP/DMG e resistência cumulativa por acertos sofridos.
 </div>
 <div className="flex">
 <img src="/static/images/heroes/beta/hab-3.png" alt="Beta" className="max-h-12  h-auto mb-4" />
-- **Habilidade 4 (SparkFlash):** Ganha stacks com ataques aos aliados e ativa contra-ataques em área com chance de provocar.
+- **Habilidade 4 (SparkFlash):** Quando aliados forem atacados ganha stacks [SPARK] algo chegar as 12 stack e ativa um ataque em área com chance de aplicar [Provocar].
 </div>
 - **Awakening 10:** 10% DEF.
 

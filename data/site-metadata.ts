@@ -3,14 +3,14 @@ import { Description } from '@headlessui/react'
 export const SITE_METADATA = {
   title: `Contendo sobre Gachas`,
   author: 'Pquar',
-  headerTitle: `Gacha blog`,
+  headerTitle: `Gacha.clonm.com`,
   description:
     '"Welcome! Share top-tier builds, resource strategies, and conquer challenges together. Found an issue or have suggestions? Ping me on Discord: @pquar feedback keeps this site growing!"',
   language: 'en',
-  headerLink: 'https://www.clonm.com/',
-  heroesFeedUrl: 'https://www.clonm.com/',
+  headerLink: 'https://gacha.clonm.com/',
+  heroesFeedUrl: 'https://gacha.clonm.com/',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://www.clonm.com',
+  siteUrl: 'https://gacha.clonm.com',
   siteRepo: 'https://github.com/pquar/',
   siteTitle: 'Reals of Guide',
   CharBanner: {
