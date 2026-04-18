@@ -1,6 +1,8 @@
 {
-  "name": "leohuynh.dev",
+  "name": "gacha-guide",
   "version": "2.0.0",
+  "private": true,
+  "license": "MIT",
   "scripts": {
     "start": "next dev",
     "dev": "cross-env INIT_CWD=$PWD next dev",
